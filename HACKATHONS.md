@@ -1,13 +1,27 @@
 # 🚀 Latest Hackathons (India & Global Online)
 
-*Total Opportunities Found: 173*
+*Total Opportunities Found: 169*
 
 | Platform | Hackathon Title | Location / Mode | Prize Pool | Direct Apply Link |
 |---|---|---|---|---|
-| **HackerEarth** | GitHub Repo Value Check | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/hackathon/github-repo-value-check/) |
-| **HackerEarth** | Yuva Yodha Energy Tech Hackathon | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/) |
-| **HackerEarth** | AI in Production Challenge | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/competitive/bits-pilani-coding-hackathon-2026/) |
-| **HackerEarth** | Code Kitchen | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/hackathon/code-kitchen/) |
+| **Devpost** | RevenueCat Shipaton 2026 | 🌐 Online | $740,000 | [Apply / View](https://revenuecat-shipaton-2026.devpost.com/) |
+| **Devpost** | All Things Agentic Hackathon | 🌐 Online | $180,000 | [Apply / View](https://allthingsagentichackathon.devpost.com/) |
+| **Devpost** | Agentic Cinema: The Blockbuster Hackathon | 🌐 Online | $75,000 | [Apply / View](https://agentic-cinema.devpost.com/) |
+| **Devpost** | Agents for Humans Hackathon | 🌐 Online | $40,000 | [Apply / View](https://agentsforhumans.devpost.com/) |
+| **Devpost** | TikTok TechJam 2026 | 🌐 Online | $34,500 | [Apply / View](https://tiktoktechjam2026.devpost.com/) |
+| **Devpost** | The WebMCP Challenge | 🌐 Online | $35,000 | [Apply / View](https://webmcp.devpost.com/) |
+| **Devpost** | CALL-E: Your Code Is Calling | 🌐 Online | $10,000 | [Apply / View](https://call-e.devpost.com/) |
+| **Devpost** | AI Builders Hackathon | 🌐 Online | $33,900 | [Apply / View](https://ai-builders-hackathon-2026.devpost.com/) |
+| **Devpost** | VoltHacks | 🌐 Online | $35,785 | [Apply / View](https://volthacks.devpost.com/) |
+| **Devpost** | 3D Websites Hackathon | 🌐 Online | $55 | [Apply / View](https://3d-websites-hackathon.devpost.com/) |
+| **Devpost** | Hack for Humanity - Summer 2026 (+13 non-cash prizes) | 🌐 Online | $100 | [Apply / View](https://hack-for-humanity-summer-26.devpost.com/) |
+| **Devpost** | Nebius x NVIDIA Global AI Hackathon | 🌐 Online | $50,000 | [Apply / View](https://nebiusglobalaihackathon.devpost.com/) |
+| **Devpost** | OpenCV AI Competition 2026, powered by AWS | 🌐 Online | $12,000 | [Apply / View](https://opencv26.devpost.com/) |
+| **Devpost** | Hack The Limit | 🌐 Online | $350 | [Apply / View](https://hack-the-limit-1.devpost.com/) |
+| **Devpost** | Hacksocial 2026 | 🌐 Online | $3,979 | [Apply / View](https://hacksocial2026.devpost.com/) |
+| **Devpost** | Global Innovation Build Challenge V2 | 🌐 Online | $149,525 | [Apply / View](https://gibc-v2.devpost.com/) |
+| **Devpost** | Galuxium Nexus V2 | 🌐 Online | $2,600 | [Apply / View](https://galuxium-nexus-v2-29411.devpost.com/) |
+| **Devpost** | SPEED August AI Challenge | 🌐 Online | $1,500 | [Apply / View](https://august-ai-challenge-31059.devpost.com/) |
 | **Devfolio** | WebCraft24 | GL Bajaj Institute of Management, Sardar Fateh Singh Road, Knowledge Park III, Greater Noida, Uttar Pradesh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/webcraft24) |
 | **Devfolio** | DOMINION 2026 | SRM Institute of Science and Technology, Potheri, SRM Nagar, Kattankulathur, Tamil Nadu, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/dominion2026) |
 | **Devfolio** | MUBA Blockchain Hackathon | 🌐 Online 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/muba-hackathon) |
@@ -65,24 +79,6 @@
 | **Unstop** | Data Bizz - Altair Data Science Competition | Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kancheepuram 🇮🇳 | ₹7,500 | [Apply / View](https://unstop.com/hackathons/data-bizz-a-data-science-competition-indian-institute-of-information-technology-design-and-manufacturing-iiit-922330) |
 | **Unstop** | Solve The SDGs: The Future is made Today | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/solve-the-sdgs-the-future-is-made-today-iit-madras-913890) |
 | **Unstop** | TriNIT Hackathon 3.0 | 🌐 Online 🇮🇳 | ₹40,000 | [Apply / View](https://unstop.com/hackathons/trinit-hackathon-30-nit-trichy-912319) |
-| **Devpost** | RevenueCat Shipaton 2026 | 🌐 Online | $740,000 | [Apply / View](https://revenuecat-shipaton-2026.devpost.com/) |
-| **Devpost** | All Things Agentic Hackathon | 🌐 Online | $180,000 | [Apply / View](https://allthingsagentichackathon.devpost.com/) |
-| **Devpost** | Agentic Cinema: The Blockbuster Hackathon | 🌐 Online | $75,000 | [Apply / View](https://agentic-cinema.devpost.com/) |
-| **Devpost** | Agents for Humans Hackathon | 🌐 Online | $40,000 | [Apply / View](https://agentsforhumans.devpost.com/) |
-| **Devpost** | TikTok TechJam 2026 | 🌐 Online | $34,500 | [Apply / View](https://tiktoktechjam2026.devpost.com/) |
-| **Devpost** | The WebMCP Challenge | 🌐 Online | $35,000 | [Apply / View](https://webmcp.devpost.com/) |
-| **Devpost** | CALL-E: Your Code Is Calling | 🌐 Online | $10,000 | [Apply / View](https://call-e.devpost.com/) |
-| **Devpost** | AI Builders Hackathon | 🌐 Online | $33,900 | [Apply / View](https://ai-builders-hackathon-2026.devpost.com/) |
-| **Devpost** | VoltHacks | 🌐 Online | $35,785 | [Apply / View](https://volthacks.devpost.com/) |
-| **Devpost** | 3D Websites Hackathon | 🌐 Online | $55 | [Apply / View](https://3d-websites-hackathon.devpost.com/) |
-| **Devpost** | Hack for Humanity - Summer 2026 (+13 non-cash prizes) | 🌐 Online | $100 | [Apply / View](https://hack-for-humanity-summer-26.devpost.com/) |
-| **Devpost** | Nebius x NVIDIA Global AI Hackathon | 🌐 Online | $50,000 | [Apply / View](https://nebiusglobalaihackathon.devpost.com/) |
-| **Devpost** | OpenCV AI Competition 2026, powered by AWS | 🌐 Online | $12,000 | [Apply / View](https://opencv26.devpost.com/) |
-| **Devpost** | Hack The Limit | 🌐 Online | $350 | [Apply / View](https://hack-the-limit-1.devpost.com/) |
-| **Devpost** | Hacksocial 2026 | 🌐 Online | $3,979 | [Apply / View](https://hacksocial2026.devpost.com/) |
-| **Devpost** | Global Innovation Build Challenge V2 | 🌐 Online | $149,525 | [Apply / View](https://gibc-v2.devpost.com/) |
-| **Devpost** | Galuxium Nexus V2 | 🌐 Online | $2,600 | [Apply / View](https://galuxium-nexus-v2-29411.devpost.com/) |
-| **Devpost** | SPEED August AI Challenge | 🌐 Online | $1,500 | [Apply / View](https://august-ai-challenge-31059.devpost.com/) |
 | **MLH** | DEV | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://dev.to) |
 | **MLH** | HackPrix Season 3 | 🌐 Online 🇮🇳 | Sponsor Bounties, Swag & Hardware | [Apply / View](https://s3.hackprix.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackPrix+Season+3) |
 | **MLH** | JAMHacks 10 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://jamhacks.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=JAMHacks+10) |
