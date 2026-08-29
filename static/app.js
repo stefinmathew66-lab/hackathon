@@ -145,6 +145,39 @@ function setupEventListeners() {
         });
     });
 
+    // WhatsApp test button
+    const btnSendWa = document.getElementById('btn-send-wa');
+    if (btnSendWa) {
+        btnSendWa.addEventListener('click', async () => {
+            const phone = document.getElementById('wa-phone').value.trim();
+            const apikey = document.getElementById('wa-key').value.trim();
+            const statusBox = document.getElementById('alert-status-msg');
+
+            statusBox.className = 'status-box';
+            statusBox.innerText = 'Sending message to your WhatsApp...';
+            statusBox.classList.remove('hidden');
+
+            try {
+                const res = await fetch('/api/notify/whatsapp', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ phone: phone || null, apikey: apikey || null })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    statusBox.className = 'status-box success';
+                    statusBox.innerText = `✓ ${data.message}`;
+                } else {
+                    statusBox.className = 'status-box error';
+                    statusBox.innerText = `✗ ${data.detail || 'Failed to send WhatsApp alert'}`;
+                }
+            } catch (err) {
+                statusBox.className = 'status-box error';
+                statusBox.innerText = `✗ Network error: ${err.message}`;
+            }
+        });
+    }
+
     // Telegram test button
     const btnSendTg = document.getElementById('btn-send-tg');
     if (btnSendTg) {

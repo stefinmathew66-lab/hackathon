@@ -13,7 +13,7 @@ from rich.panel import Panel
 from rich.prompt import Prompt
 
 from hackathons.aggregator import HackathonAggregator
-from hackathons.notifiers import send_telegram_alert, send_discord_webhook
+from hackathons.notifiers import send_telegram_alert, send_whatsapp_alert, send_discord_webhook
 
 load_dotenv()
 console = Console()
@@ -80,11 +80,12 @@ def interactive_mode(aggregator: HackathonAggregator):
         console.print("4. 🏢 Filter by Platform (Devfolio, Unstop, Devpost, HackerEarth, MLH)")
         console.print("5. 📊 Show Statistics & Platform Breakdown")
         console.print("6. 💾 Export Results to CSV / JSON / Markdown")
-        console.print("7. 📢 Send Alert to Telegram / Discord")
-        console.print("8. 🔄 Force Refresh Live Data")
+        console.print("7. 📱 Send Personal Alert to WhatsApp (CallMeBot)")
+        console.print("8. 📢 Broadcast to Telegram Channel / Group")
+        console.print("9. 🔄 Force Refresh Live Data")
         console.print("0. 🚪 Exit")
 
-        choice = Prompt.ask("Enter choice", choices=["0", "1", "2", "3", "4", "5", "6", "7", "8"], default="1")
+        choice = Prompt.ask("Enter choice", choices=["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"], default="1")
 
         if choice == "0":
             console.print("[green]Goodbye & happy hacking! 🚀[/green]")
@@ -133,17 +134,18 @@ def interactive_mode(aggregator: HackathonAggregator):
                 f.write(content)
             console.print(f"[bold green]✓ Successfully exported {len(data)} hackathons to {filename}[/bold green]")
         elif choice == "7":
-            target = Prompt.ask("Choose destination", choices=["telegram", "discord"], default="telegram")
-            if target == "telegram":
-                token = Prompt.ask("Telegram Bot Token (or press enter for env)", default=os.getenv("TELEGRAM_BOT_TOKEN", ""))
-                chat_id = Prompt.ask("Telegram Chat ID (or press enter for env)", default=os.getenv("TELEGRAM_CHAT_ID", ""))
-                success = send_telegram_alert(aggregator.fetch_all(), bot_token=token, chat_id=chat_id)
-                console.print("[green]✓ Telegram message sent![/green]" if success else "[red]✗ Failed to send. Check bot token and chat ID.[/red]")
-            else:
-                webhook = Prompt.ask("Discord Webhook URL (or press enter for env)", default=os.getenv("DISCORD_WEBHOOK_URL", ""))
-                success = send_discord_webhook(aggregator.fetch_all(), webhook_url=webhook)
-                console.print("[green]✓ Discord webhook sent![/green]" if success else "[red]✗ Failed to send. Check webhook URL.[/red]")
+            phone = Prompt.ask("WhatsApp Phone with country code (or press enter for env)", default=os.getenv("WHATSAPP_PHONE", ""))
+            apikey = Prompt.ask("CallMeBot API Key (or press enter for env)", default=os.getenv("WHATSAPP_APIKEY", ""))
+            with console.status("[bold green]Sending WhatsApp alert..."):
+                ok = send_whatsapp_alert(aggregator.fetch_all(), phone_number=phone, api_key=apikey)
+            console.print("[green]✓ Personal WhatsApp message sent![/green]" if ok else "[red]✗ Failed to send. Check phone and CallMeBot API key.[/red]")
         elif choice == "8":
+            token = Prompt.ask("Telegram Bot Token (or press enter for env)", default=os.getenv("TELEGRAM_BOT_TOKEN", ""))
+            chat_id = Prompt.ask("Telegram Channel ID / Chat ID (or press enter for env)", default=os.getenv("TELEGRAM_CHAT_ID", ""))
+            with console.status("[bold green]Broadcasting to Telegram..."):
+                ok = send_telegram_alert(aggregator.fetch_all(), bot_token=token, chat_id=chat_id)
+            console.print("[green]✓ Telegram broadcast sent![/green]" if ok else "[red]✗ Failed to send. Check bot token and chat ID.[/red]")
+        elif choice == "9":
             with console.status("[bold green]Refreshing live data from all platforms..."):
                 results = aggregator.fetch_all(force_refresh=True)
             console.print(f"[bold green]✓ Refreshed! Total {len(results)} live hackathons loaded.[/bold green]")
@@ -157,8 +159,10 @@ def main():
     parser.add_argument("--limit", type=int, default=30, help="Number of results to display in table")
     parser.add_argument("--refresh", action="store_true", help="Force refresh data from sources")
     parser.add_argument("--export", type=str, help="Export results to file (.csv, .json, or .md)")
-    parser.add_argument("--notify-telegram", action="store_true", help="Send alert to Telegram channel")
+    parser.add_argument("--notify-whatsapp", action="store_true", help="Send personal alert to WhatsApp (CallMeBot)")
+    parser.add_argument("--notify-telegram", action="store_true", help="Broadcast alert to Telegram channel")
     parser.add_argument("--notify-discord", action="store_true", help="Send alert to Discord webhook")
+    parser.add_argument("--notify-all", action="store_true", help="Send to WhatsApp personal, Telegram broadcast, and Discord")
     parser.add_argument("--interactive", "-i", action="store_true", help="Launch interactive menu mode")
 
     args = parser.parse_args()
@@ -191,13 +195,17 @@ def main():
             f.write(content)
         console.print(f"[bold green]✓ Exported {len(results)} hackathons to {args.export}[/bold green]")
 
-    if args.notify_telegram:
-        ok = send_telegram_alert(results)
-        console.print("[green]✓ Sent to Telegram![/green]" if ok else "[yellow]⚠️ Telegram alert not sent. Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env[/yellow]")
+    if args.notify_whatsapp or args.notify_all:
+        ok = send_whatsapp_alert(results)
+        console.print("[green]✓ Personal WhatsApp alert sent![/green]" if ok else "[yellow]⚠️ WhatsApp alert not sent. Set WHATSAPP_PHONE and WHATSAPP_APIKEY in .env[/yellow]")
 
-    if args.notify_discord:
+    if args.notify_telegram or args.notify_all:
+        ok = send_telegram_alert(results)
+        console.print("[green]✓ Telegram broadcast sent![/green]" if ok else "[yellow]⚠️ Telegram broadcast not sent. Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env[/yellow]")
+
+    if args.notify_discord or args.notify_all:
         ok = send_discord_webhook(results)
-        console.print("[green]✓ Sent to Discord![/green]" if ok else "[yellow]⚠️ Discord alert not sent. Set DISCORD_WEBHOOK_URL in .env[/yellow]")
+        console.print("[green]✓ Discord alert sent![/green]" if ok else "[yellow]⚠️ Discord alert not sent. Set DISCORD_WEBHOOK_URL in .env[/yellow]")
 
 if __name__ == "__main__":
     main()

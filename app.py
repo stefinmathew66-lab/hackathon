@@ -6,7 +6,7 @@ from fastapi.responses import FileResponse, HTMLResponse, PlainTextResponse
 from pydantic import BaseModel
 
 from hackathons.aggregator import HackathonAggregator
-from hackathons.notifiers import send_telegram_alert, send_discord_webhook
+from hackathons.notifiers import send_telegram_alert, send_whatsapp_alert, send_discord_webhook
 
 app = FastAPI(
     title="Hackathon Hunter API",
@@ -20,6 +20,12 @@ aggregator = HackathonAggregator(cache_ttl_seconds=300)
 class TelegramAlertRequest(BaseModel):
     token: Optional[str] = None
     chat_id: Optional[str] = None
+    india_only: Optional[bool] = None
+    online_only: Optional[bool] = None
+
+class WhatsAppAlertRequest(BaseModel):
+    phone: Optional[str] = None
+    apikey: Optional[str] = None
     india_only: Optional[bool] = None
     online_only: Optional[bool] = None
 
@@ -78,8 +84,16 @@ def trigger_telegram_alert(req: TelegramAlertRequest):
     items = aggregator.filter(india_only=req.india_only, online_only=req.online_only)
     success = send_telegram_alert(items, bot_token=req.token, chat_id=req.chat_id)
     if not success:
-        raise HTTPException(status_code=400, detail="Failed to send Telegram alert. Check bot token and chat ID.")
-    return {"status": "success", "message": f"Sent {len(items)} hackathons to Telegram!"}
+        raise HTTPException(status_code=400, detail="Failed to broadcast to Telegram. Check bot token and chat/channel ID.")
+    return {"status": "success", "message": f"Broadcasted {len(items)} hackathons to Telegram channel!"}
+
+@app.post("/api/notify/whatsapp")
+def trigger_whatsapp_alert(req: WhatsAppAlertRequest):
+    items = aggregator.filter(india_only=req.india_only, online_only=req.online_only)
+    success = send_whatsapp_alert(items, phone_number=req.phone, api_key=req.apikey)
+    if not success:
+        raise HTTPException(status_code=400, detail="Failed to send WhatsApp message. Check phone number and CallMeBot API key.")
+    return {"status": "success", "message": f"Sent personal hackathon digest to WhatsApp!"}
 
 @app.post("/api/notify/discord")
 def trigger_discord_alert(req: DiscordAlertRequest):

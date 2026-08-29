@@ -13,8 +13,8 @@ def send_telegram_alert(
     max_items: int = 8
 ) -> bool:
     """
-    Sends latest hackathon links to a Telegram channel or chat for 100% free.
-    Requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID (or passed as arguments).
+    Sends latest hackathon links to a Telegram channel or group for BROADCASTING.
+    Requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID (or channel username @my_channel).
     """
     token = bot_token or os.getenv("TELEGRAM_BOT_TOKEN")
     chat = chat_id or os.getenv("TELEGRAM_CHAT_ID")
@@ -27,8 +27,8 @@ def send_telegram_alert(
         return False
 
     message_lines = [
-        "🔥 *LATEST HACKATHONS ALERT* 🔥\n",
-        f"Found *{len(hackathons)}* opportunities matching your criteria:\n"
+        "📢 *HACKATHON BROADCAST: LATEST OPPORTUNITIES* 🚀\n",
+        f"Found *{len(hackathons)}* active hackathons matching your criteria:\n"
     ]
 
     for i, h in enumerate(hackathons[:max_items], 1):
@@ -38,11 +38,11 @@ def send_telegram_alert(
         message_lines.append(
             f"{i}. *{title_safe}* ({h.platform} {mode_icon})\n"
             f"   💰 Prize: `{prize}`\n"
-            f"   🔗 [Click to Apply / View Details]({h.url})\n"
+            f"   🔗 [Apply / View Details]({h.url})\n"
         )
 
     if len(hackathons) > max_items:
-        message_lines.append(f"\n_...and {len(hackathons) - max_items} more hackathons available!_")
+        message_lines.append(f"\n_...and {len(hackathons) - max_items} more hackathons live!_")
 
     text = "\n".join(message_lines)
     url = f"https://api.telegram.org/bot{token}/sendMessage"
@@ -59,6 +59,62 @@ def send_telegram_alert(
         logger.error(f"Telegram notification error: {e}")
         return False
 
+def send_whatsapp_alert(
+    hackathons: List[Hackathon],
+    phone_number: Optional[str] = None,
+    api_key: Optional[str] = None,
+    max_items: int = 6
+) -> bool:
+    """
+    Sends latest hackathons directly to your PERSONAL WhatsApp for 100% free via CallMeBot API.
+    Requires WHATSAPP_PHONE (e.g. +919876543210) and WHATSAPP_APIKEY.
+    """
+    phone = phone_number or os.getenv("WHATSAPP_PHONE")
+    key = api_key or os.getenv("WHATSAPP_APIKEY")
+    
+    if not phone or not key:
+        logger.warning("WhatsApp Phone or API Key not configured.")
+        return False
+
+    if not hackathons:
+        return False
+
+    clean_phone = phone.replace("+", "").replace(" ", "").replace("-", "").strip()
+
+    message_lines = [
+        "🚀 *DAILY HACKATHONS DIGEST (8:00 AM)* 🚀\n",
+        f"Good morning! Found *{len(hackathons)}* latest hackathons for you:\n"
+    ]
+
+    for i, h in enumerate(hackathons[:max_items], 1):
+        mode_icon = "🇮🇳" if h.is_india else "🌐"
+        prize = h.prize_pool or "Swag & Prizes"
+        title_safe = h.title.replace("*", "").replace("_", "")
+        message_lines.append(
+            f"{i}. *{title_safe}* ({h.platform} {mode_icon})\n"
+            f"   💰 Prize: {prize}\n"
+            f"   🔗 {h.url}\n"
+        )
+
+    if len(hackathons) > max_items:
+        message_lines.append(f"\n_...and {len(hackathons) - max_items} more hackathons available!_")
+
+    message_text = "\n".join(message_lines)
+    
+    url = "https://api.callmebot.com/whatsapp.php"
+    params = {
+        "phone": clean_phone,
+        "text": message_text,
+        "apikey": key
+    }
+
+    try:
+        res = requests.get(url, params=params, timeout=15)
+        return res.status_code == 200 and "error" not in res.text.lower()
+    except Exception as e:
+        logger.error(f"WhatsApp notification error: {e}")
+        return False
+
 def send_discord_webhook(
     hackathons: List[Hackathon],
     webhook_url: Optional[str] = None,
@@ -66,7 +122,6 @@ def send_discord_webhook(
 ) -> bool:
     """
     Sends latest hackathon links to a Discord channel via free incoming webhook.
-    Requires DISCORD_WEBHOOK_URL (or passed as argument).
     """
     hook = webhook_url or os.getenv("DISCORD_WEBHOOK_URL")
     if not hook:

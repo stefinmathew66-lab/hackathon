@@ -1,4 +1,4 @@
-name: 🚀 Daily Automated Hackathon Finder & Alert Bot
+name: 🚀 Daily Automated Hackathon Finder & Alert Bot (8:00 AM IST)
 
 on:
   schedule:
@@ -34,16 +34,30 @@ jobs:
           python bot.py --export HACKATHONS.md
           python bot.py --export hackathons.json
 
-      - name: 📢 Send Telegram & Discord Alerts (If Configured)
+      - name: 📱 Send Personal WhatsApp Alert (CallMeBot)
+        env:
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
+        run: |
+          if [ -n "$WHATSAPP_PHONE" ] && [ -n "$WHATSAPP_APIKEY" ]; then
+            echo "Sending personal WhatsApp digest..."
+            python bot.py --notify-whatsapp
+          fi
+
+      - name: 📢 Send Telegram Channel Broadcast
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
-            echo "Sending Telegram alert..."
+            echo "Broadcasting to Telegram channel..."
             python bot.py --notify-telegram
           fi
+
+      - name: 💬 Send Discord Alert (Optional)
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
           if [ -n "$DISCORD_WEBHOOK_URL" ]; then
             echo "Sending Discord alert..."
             python bot.py --notify-discord
