@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Hunter | 100% Free Hackathon Links (India & Global Online)</title>
+    <meta name="description" content="Discover, search, and track all latest hackathons across India and global online platforms including Devfolio, Unstop, Devpost, MLH, and HackerEarth for 100% free.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="background-mesh"></div>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="brand">
+                <div class="brand-logo">
+                    <i data-lucide="zap" class="zap-icon"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">Hackathon<span class="gradient-text">Hunter</span></span>
+                    <span class="brand-badge">100% Free Aggregator</span>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <button id="btn-refresh" class="btn btn-secondary" title="Fetch latest hackathons from all sources">
+                    <i data-lucide="refresh-cw"></i>
+                    <span>Refresh Data</span>
+                </button>
+                <div class="dropdown">
+                    <button id="btn-export-menu" class="btn btn-primary">
+                        <i data-lucide="download"></i>
+                        <span>Export Links</span>
+                        <i data-lucide="chevron-down" class="chevron"></i>
+                    </button>
+                    <div class="dropdown-menu" id="export-dropdown">
+                        <a href="#" data-export="markdown"><i data-lucide="file-text"></i> Markdown (.md)</a>
+                        <a href="#" data-export="csv"><i data-lucide="table"></i> Spreadsheet (.csv)</a>
+                        <a href="#" data-export="json"><i data-lucide="code"></i> Developers (.json)</a>
+                    </div>
+                </div>
+                <button id="btn-open-alerts" class="btn btn-glow">
+                    <i data-lucide="bell"></i>
+                    <span>Free Bot Alerts</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-tag">
+                <span class="pulse-dot"></span>
+                <span>Live Feed from Devfolio • Unstop • Devpost • HackerEarth • MLH</span>
+            </div>
+            <h1 class="hero-title">
+                Find Your Next Winning Hackathon in <span class="text-glow-in">India</span> & <span class="text-glow-global">Global Online</span>
+            </h1>
+            <p class="hero-subtitle">
+                Zero fees, no signups required. Aggregating 150+ live hackathons, direct apply links, prize pools, and instant calendar integrations.
+            </p>
+
+            <!-- Quick Metrics / Stats Bar -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon-wrap icon-cyan">
+                        <i data-lucide="flame"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value" id="stat-total">--</span>
+                        <span class="stat-label">Total Hackathons</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon-wrap icon-orange">
+                        <i data-lucide="map-pin"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value" id="stat-india">--</span>
+                        <span class="stat-label">India Hackathons</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon-wrap icon-purple">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value" id="stat-online">--</span>
+                        <span class="stat-label">Global Online</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon-wrap icon-green">
+                        <i data-lucide="trophy"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value" id="stat-prizes">₹5Cr+ / $2M+</span>
+                        <span class="stat-label">Total Prize Pool</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Controls / Filter Section -->
+        <section class="control-panel">
+            <div class="search-bar-wrap">
+                <i data-lucide="search" class="search-icon"></i>
+                <input type="text" id="search-input" placeholder="Search by name, tags (AI, Web3, FinTech), college, or prize..." autocomplete="off">
+                <button id="search-clear" class="btn-clear hidden" title="Clear search">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+
+            <!-- Region & Mode Tabs -->
+            <div class="filter-row">
+                <div class="tabs-group" id="region-tabs">
+                    <button class="tab-btn active" data-region="all">
+                        <i data-lucide="layers"></i> All Opportunities
+                    </button>
+                    <button class="tab-btn" data-region="india">
+                        <span class="flag">🇮🇳</span> India (In-Person & Online)
+                    </button>
+                    <button class="tab-btn" data-region="online">
+                        <i data-lucide="globe"></i> Global Online (Virtual)
+                    </button>
+                </div>
+
+                <div class="sort-wrap">
+                    <label for="sort-select"><i data-lucide="sliders-horizontal"></i></label>
+                    <select id="sort-select" class="custom-select">
+                        <option value="featured">Default Sort</option>
+                        <option value="prizes">Highest Prizes</option>
+                        <option value="name">Alphabetical</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Platform Filters -->
+            <div class="platform-chips-row">
+                <span class="chips-label">Platform:</span>
+                <div class="chips-list" id="platform-chips">
+                    <button class="chip active" data-platform="all">All Sources</button>
+                    <button class="chip" data-platform="Devfolio">
+                        <span class="chip-dot dot-devfolio"></span> Devfolio
+                    </button>
+                    <button class="chip" data-platform="Unstop">
+                        <span class="chip-dot dot-unstop"></span> Unstop
+                    </button>
+                    <button class="chip" data-platform="Devpost">
+                        <span class="chip-dot dot-devpost"></span> Devpost
+                    </button>
+                    <button class="chip" data-platform="HackerEarth">
+                        <span class="chip-dot dot-hackerearth"></span> HackerEarth
+                    </button>
+                    <button class="chip" data-platform="MLH">
+                        <span class="chip-dot dot-mlh"></span> MLH
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hackathon Cards Section -->
+        <section class="results-section">
+            <div class="results-header">
+                <div class="results-counter">
+                    Showing <strong id="results-count" class="highlight-count">0</strong> hackathons
+                </div>
+                <div class="active-filter-indicators" id="active-filter-tags"></div>
+            </div>
+
+            <!-- Loading Skeleton / Spinner -->
+            <div id="loading-state" class="loading-container">
+                <div class="spinner"></div>
+                <p>Fetching latest hackathons across all platforms...</p>
+            </div>
+
+            <!-- Hackathon Cards Grid -->
+            <div id="hackathons-grid" class="cards-grid hidden"></div>
+
+            <!-- Empty State -->
+            <div id="empty-state" class="empty-container hidden">
+                <div class="empty-icon-wrap">
+                    <i data-lucide="compass"></i>
+                </div>
+                <h3>No hackathons match your search</h3>
+                <p>Try clearing filters or searching for terms like "AI", "India", or "Web3".</p>
+                <button id="btn-reset-filters" class="btn btn-secondary">Reset All Filters</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bot Alerts Modal -->
+    <div id="alerts-modal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <div class="modal-icon"><i data-lucide="bot"></i></div>
+                    <div>
+                        <h3>Free Telegram & Discord Bot Alerts</h3>
+                        <p>Receive notifications whenever new hackathons are posted for free.</p>
+                    </div>
+                </div>
+                <button id="modal-close" class="btn-icon"><i data-lucide="x"></i></button>
+            </div>
+
+            <div class="modal-tabs">
+                <button class="modal-tab-btn active" data-target="tab-telegram">
+                    <i data-lucide="send"></i> Telegram Bot
+                </button>
+                <button class="modal-tab-btn" data-target="tab-discord">
+                    <i data-lucide="message-square"></i> Discord Webhook
+                </button>
+                <button class="modal-tab-btn" data-target="tab-github">
+                    <i data-lucide="git-branch"></i> Free GitHub Actions 24/7
+                </button>
+            </div>
+
+            <!-- Telegram Tab -->
+            <div id="tab-telegram" class="modal-tab-pane active">
+                <p class="guide-text">
+                    Create a free bot via <strong>@BotFather</strong> on Telegram, paste the token below and your Chat ID to test immediate delivery:
+                </p>
+                <div class="form-group">
+                    <label>Telegram Bot Token</label>
+                    <input type="password" id="tg-token" placeholder="123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ">
+                </div>
+                <div class="form-group">
+                    <label>Telegram Chat / Channel ID</label>
+                    <input type="text" id="tg-chat" placeholder="@your_channel or 987654321">
+                </div>
+                <div class="modal-actions">
+                    <button id="btn-send-tg" class="btn btn-primary"><i data-lucide="send"></i> Send Test Alert to Telegram</button>
+                </div>
+            </div>
+
+            <!-- Discord Tab -->
+            <div id="tab-discord" class="modal-tab-pane hidden">
+                <p class="guide-text">
+                    In your Discord server settings, go to <strong>Integrations -> Webhooks -> New Webhook</strong>, copy the URL and paste it here:
+                </p>
+                <div class="form-group">
+                    <label>Discord Webhook URL</label>
+                    <input type="url" id="discord-webhook" placeholder="https://discord.com/api/webhooks/...">
+                </div>
+                <div class="modal-actions">
+                    <button id="btn-send-discord" class="btn btn-primary"><i data-lucide="message-square"></i> Send Test Alert to Discord</button>
+                </div>
+            </div>
+
+            <!-- GitHub Actions Tab -->
+            <div id="tab-github" class="modal-tab-pane hidden">
+                <p class="guide-text">
+                    Want this to run automatically in the cloud on a schedule without keeping your computer on?
+                </p>
+                <div class="code-block-preview">
+                    <code>
+                        # Pre-configured workflow included in your repository:<br>
+                        # .github/workflows/hackathon_bot.yml<br>
+                        # Runs daily at 9:00 AM UTC with zero server cost!
+                    </code>
+                </div>
+                <p class="sub-guide-text">
+                    Simply push this folder to your GitHub repo and add your <code>TELEGRAM_BOT_TOKEN</code> in Repo Settings -> Secrets.
+                </p>
+            </div>
+            <div id="alert-status-msg" class="status-box hidden"></div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+        <i data-lucide="check-circle" class="toast-icon"></i>
+        <span id="toast-message">Link copied to clipboard!</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>⚡ <strong>Hackathon Hunter</strong> — Zero API keys required • 100% Free & Open Source</p>
+            </div>
+            <div class="footer-right">
+                <span>Aggregating from Devfolio, Unstop, Devpost, HackerEarth & MLH</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

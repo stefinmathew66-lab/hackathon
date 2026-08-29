@@ -1,0 +1,62 @@
+name: 🚀 Daily Automated Hackathon Finder & Alert Bot
+
+on:
+  schedule:
+    # Runs daily at 03:30 UTC = 09:00 AM IST (Indian Standard Time) for 100% free
+    - cron: '30 3 * * *'
+  workflow_dispatch: # Allows 1-click manual trigger anytime from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: ⚡ Fetch Latest Hackathons (India & Global Online)
+        run: |
+          python bot.py --export HACKATHONS.md
+          python bot.py --export hackathons.json
+
+      - name: 📢 Send Telegram & Discord Alerts (If Configured)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            echo "Sending Telegram alert..."
+            python bot.py --notify-telegram
+          fi
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            echo "Sending Discord alert..."
+            python bot.py --notify-discord
+          fi
+
+      - name: 💾 Auto-Commit & Push Fresh Hackathons to GitHub Repo
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add HACKATHONS.md hackathons.json || true
+          if git diff --staged --quiet; then
+            echo "No new changes to commit"
+          else
+            git commit -m "🤖 Auto-Sync: Updated Latest Hackathons List [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git push origin main
+          fi
