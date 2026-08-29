@@ -1,8 +1,11 @@
-// Hackathon Hunter Dashboard Client Logic
+// Hackathon Hunter Dashboard Client Logic v2.0
 let allHackathons = [];
 let currentFilter = {
-    region: 'all', // 'all', 'india', 'online'
-    platform: 'all',
+    region: 'all',      // 'all', 'india', 'online'
+    category: 'all',    // 'all', 'AI & ML', 'Web3 & Crypto', etc.
+    city: 'all',        // 'all', 'Bengaluru', 'Delhi-NCR', etc.
+    prize: 'all',       // 'all', 'mega', 'high', 'cash', 'swag'
+    platform: 'all',    // 'all', 'Devfolio', 'Unstop', etc.
     search: '',
     sort: 'featured'
 };
@@ -11,7 +14,10 @@ let currentFilter = {
 const searchInput = document.getElementById('search-input');
 const searchClearBtn = document.getElementById('search-clear');
 const regionTabs = document.getElementById('region-tabs');
+const categoryChips = document.getElementById('category-chips');
+const cityChips = document.getElementById('city-chips');
 const platformChips = document.getElementById('platform-chips');
+const prizeSelect = document.getElementById('prize-select');
 const sortSelect = document.getElementById('sort-select');
 const hackathonsGrid = document.getElementById('hackathons-grid');
 const loadingState = document.getElementById('loading-state');
@@ -21,11 +27,13 @@ const refreshBtn = document.getElementById('btn-refresh');
 const exportBtn = document.getElementById('btn-export-menu');
 const exportDropdown = document.getElementById('export-dropdown');
 const resetFiltersBtn = document.getElementById('btn-reset-filters');
+const resetAllBtn = document.getElementById('btn-reset-all');
 const alertsBtn = document.getElementById('btn-open-alerts');
 const alertsModal = document.getElementById('alerts-modal');
 const modalClose = document.getElementById('modal-close');
 const toast = document.getElementById('toast');
 const toastMessage = document.getElementById('toast-message');
+const syncTimeText = document.getElementById('sync-time-text');
 
 // Stats Elements
 const statTotal = document.getElementById('stat-total');
@@ -37,6 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
     lucide.createIcons();
     fetchHackathons();
     setupEventListeners();
+
+    // Auto-refresh in the browser every 15 minutes
+    setInterval(() => {
+        fetchHackathons(false);
+    }, 900000);
 });
 
 function setupEventListeners() {
@@ -49,7 +62,7 @@ function setupEventListeners() {
         searchTimeout = setTimeout(() => {
             currentFilter.search = val.toLowerCase();
             renderFilteredHackathons();
-        }, 200);
+        }, 150);
     });
 
     searchClearBtn.addEventListener('click', () => {
@@ -69,6 +82,26 @@ function setupEventListeners() {
         renderFilteredHackathons();
     });
 
+    // Category Chips
+    categoryChips.addEventListener('click', (e) => {
+        const chip = e.target.closest('.chip');
+        if (!chip) return;
+        categoryChips.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        currentFilter.category = chip.dataset.category;
+        renderFilteredHackathons();
+    });
+
+    // City Chips
+    cityChips.addEventListener('click', (e) => {
+        const chip = e.target.closest('.chip');
+        if (!chip) return;
+        cityChips.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        currentFilter.city = chip.dataset.city;
+        renderFilteredHackathons();
+    });
+
     // Platform Chips
     platformChips.addEventListener('click', (e) => {
         const chip = e.target.closest('.chip');
@@ -79,28 +112,48 @@ function setupEventListeners() {
         renderFilteredHackathons();
     });
 
+    // Prize Selector
+    prizeSelect.addEventListener('change', (e) => {
+        currentFilter.prize = e.target.value;
+        renderFilteredHackathons();
+    });
+
     // Sort select
     sortSelect.addEventListener('change', (e) => {
         currentFilter.sort = e.target.value;
         renderFilteredHackathons();
     });
 
-    // Reset Filters
-    if (resetFiltersBtn) {
-        resetFiltersBtn.addEventListener('click', () => {
-            currentFilter = { region: 'all', platform: 'all', search: '', sort: 'featured' };
-            searchInput.value = '';
-            searchClearBtn.classList.add('hidden');
-            regionTabs.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.region === 'all'));
-            platformChips.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.platform === 'all'));
-            sortSelect.value = 'featured';
-            renderFilteredHackathons();
-        });
-    }
+    // Reset All Filters
+    const resetFn = () => {
+        currentFilter = {
+            region: 'all',
+            category: 'all',
+            city: 'all',
+            prize: 'all',
+            platform: 'all',
+            search: '',
+            sort: 'featured'
+        };
+        searchInput.value = '';
+        searchClearBtn.classList.add('hidden');
+        regionTabs.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.region === 'all'));
+        categoryChips.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.category === 'all'));
+        cityChips.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.city === 'all'));
+        platformChips.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.platform === 'all'));
+        prizeSelect.value = 'all';
+        sortSelect.value = 'featured';
+        renderFilteredHackathons();
+        showToast('All filters reset! 🔄');
+    };
 
-    // Refresh Data
+    if (resetFiltersBtn) resetFiltersBtn.addEventListener('click', resetFn);
+    if (resetAllBtn) resetAllBtn.addEventListener('click', resetFn);
+
+    // Refresh Data button
     refreshBtn.addEventListener('click', () => {
         fetchHackathons(true);
+        showToast('Refreshing live data from all sources... ⚡');
     });
 
     // Export Dropdown
@@ -187,7 +240,7 @@ function setupEventListeners() {
             const statusBox = document.getElementById('alert-status-msg');
             
             statusBox.className = 'status-box';
-            statusBox.innerText = 'Sending alert...';
+            statusBox.innerText = 'Broadcasting to Telegram...';
             statusBox.classList.remove('hidden');
 
             try {
@@ -202,7 +255,7 @@ function setupEventListeners() {
                     statusBox.innerText = `✓ ${data.message}`;
                 } else {
                     statusBox.className = 'status-box error';
-                    statusBox.innerText = `✗ ${data.detail || 'Failed to send alert'}`;
+                    statusBox.innerText = `✗ ${data.detail || 'Failed to broadcast alert'}`;
                 }
             } catch (err) {
                 statusBox.className = 'status-box error';
@@ -256,11 +309,15 @@ async function fetchHackathons(forceRefresh = false) {
         const data = await res.json();
         allHackathons = data.hackathons || [];
         
+        if (syncTimeText) {
+            syncTimeText.innerText = `Auto-synced (${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })})`;
+        }
+
         updateStats();
         renderFilteredHackathons();
     } catch (err) {
         console.error('Error fetching hackathons:', err);
-        loadingState.innerHTML = `<p style="color: #f87171;">Failed to load hackathons. Please check your connection and try refreshing.</p>`;
+        loadingState.innerHTML = `<p style="color: #f87171;">Failed to load hackathons. Please check connection and click Refresh.</p>`;
     } finally {
         loadingState.classList.add('hidden');
     }
@@ -276,42 +333,58 @@ function updateStats() {
 function renderFilteredHackathons() {
     let filtered = [...allHackathons];
 
-    // Filter by Region
+    // 1. Region Filter
     if (currentFilter.region === 'india') {
         filtered = filtered.filter(h => h.is_india);
     } else if (currentFilter.region === 'online') {
         filtered = filtered.filter(h => h.is_online && !h.is_india);
     }
 
-    // Filter by Platform
+    // 2. Category Track Filter
+    if (currentFilter.category !== 'all') {
+        filtered = filtered.filter(h => (h.category || '').toLowerCase() === currentFilter.category.toLowerCase());
+    }
+
+    // 3. City Filter
+    if (currentFilter.city !== 'all') {
+        filtered = filtered.filter(h => (h.city || '').toLowerCase() === currentFilter.city.toLowerCase());
+    }
+
+    // 4. Platform Filter
     if (currentFilter.platform !== 'all') {
         filtered = filtered.filter(h => h.platform.toLowerCase() === currentFilter.platform.toLowerCase());
     }
 
-    // Filter by Search Query
+    // 5. Prize Pool Filter
+    if (currentFilter.prize === 'mega') {
+        filtered = filtered.filter(h => (h.prize_usd_approx || 0) >= 6000);
+    } else if (currentFilter.prize === 'high') {
+        filtered = filtered.filter(h => (h.prize_usd_approx || 0) >= 1000 && (h.prize_usd_approx || 0) < 6000);
+    } else if (currentFilter.prize === 'cash') {
+        filtered = filtered.filter(h => (h.prize_usd_approx || 0) > 0);
+    } else if (currentFilter.prize === 'swag') {
+        filtered = filtered.filter(h => (h.prize_usd_approx || 0) === 0);
+    }
+
+    // 6. Search Query
     if (currentFilter.search) {
         const q = currentFilter.search;
         filtered = filtered.filter(h =>
             h.title.toLowerCase().includes(q) ||
             (h.description || '').toLowerCase().includes(q) ||
             (h.location || '').toLowerCase().includes(q) ||
+            (h.city || '').toLowerCase().includes(q) ||
+            (h.category || '').toLowerCase().includes(q) ||
             (h.prize_pool || '').toLowerCase().includes(q) ||
             h.tags.some(t => t.toLowerCase().includes(q))
         );
     }
 
-    // Sort
+    // 7. Sort
     if (currentFilter.sort === 'name') {
         filtered.sort((a, b) => a.title.localeCompare(b.title));
     } else if (currentFilter.sort === 'prizes') {
-        filtered.sort((a, b) => {
-            const getPrizeNum = (str) => {
-                if (!str) return 0;
-                const match = str.replace(/,/g, '').match(/\d+/);
-                return match ? parseInt(match[0], 10) : 0;
-            };
-            return getPrizeNum(b.prize_pool) - getPrizeNum(a.prize_pool);
-        });
+        filtered.sort((a, b) => (b.prize_usd_approx || 0) - (a.prize_usd_approx || 0));
     }
 
     resultsCount.innerText = filtered.length;
@@ -335,13 +408,17 @@ function createHackathonCardHtml(h) {
         : `<span class="card-mode-badge">🌐 Global Online</span>`;
 
     const prize = h.prize_pool || 'Prizes & Swag';
-    const locationStr = h.location || (h.is_online ? 'Online' : 'In-Person');
-    const tagsHtml = h.tags.slice(0, 4).map(t => `<span class="tag-pill">${escapeHtml(t)}</span>`).join('');
+    const locationStr = h.city && h.city !== 'Online (Virtual)' ? `${h.city} • ${h.location || 'In-Person'}` : (h.location || 'Online');
+    const categoryBadge = `<span class="card-category-badge">${escapeHtml(h.category || 'Open')}</span>`;
+    const tagsHtml = h.tags.slice(0, 3).map(t => `<span class="tag-pill">${escapeHtml(t)}</span>`).join('');
 
     return `
         <article class="hackathon-card">
             <div class="card-header-bar">
-                <span class="platform-tag plat-${h.platform}">${h.platform}</span>
+                <div style="display: flex; gap: 0.4rem; align-items: center;">
+                    <span class="platform-tag plat-${h.platform}">${h.platform}</span>
+                    ${categoryBadge}
+                </div>
                 ${modeBadge}
             </div>
 
@@ -355,8 +432,8 @@ function createHackathonCardHtml(h) {
                         <span class="info-val val-prize">${escapeHtml(prize)}</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">Mode / Venue</span>
-                        <span class="info-val">${escapeHtml(locationStr)}</span>
+                        <span class="info-label">City / Venue</span>
+                        <span class="info-val" title="${escapeHtml(locationStr)}">${escapeHtml(locationStr)}</span>
                     </div>
                 </div>
 
@@ -370,7 +447,7 @@ function createHackathonCardHtml(h) {
                     <span>Apply / View</span>
                     <i data-lucide="external-link"></i>
                 </a>
-                <button class="btn-icon-action btn-copy" data-url="${h.url}" title="Copy Link">
+                <button class="btn-icon-action btn-copy" data-url="${h.url}" title="Copy Direct Link">
                     <i data-lucide="copy"></i>
                 </button>
                 <button class="btn-icon-action btn-calendar" 
@@ -414,6 +491,8 @@ function triggerExport(format) {
         format: format,
         ...(currentFilter.region === 'india' && { india_only: 'true' }),
         ...(currentFilter.region === 'online' && { online_only: 'true' }),
+        ...(currentFilter.category !== 'all' && { category: currentFilter.category }),
+        ...(currentFilter.city !== 'all' && { city: currentFilter.city }),
         ...(currentFilter.platform !== 'all' && { platform: currentFilter.platform }),
         ...(currentFilter.search && { q: currentFilter.search })
     });

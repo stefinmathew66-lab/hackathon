@@ -1,8 +1,10 @@
 import os
+import threading
+import time
 from typing import Optional
 from fastapi import FastAPI, Query, HTTPException, Response
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse, HTMLResponse, PlainTextResponse
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 from hackathons.aggregator import HackathonAggregator
@@ -11,10 +13,25 @@ from hackathons.notifiers import send_telegram_alert, send_whatsapp_alert, send_
 app = FastAPI(
     title="Hackathon Hunter API",
     description="100% Free Hackathon Link Fetcher & Aggregator API (India & Global Online)",
-    version="1.0.0"
+    version="2.0.0"
 )
 
 aggregator = HackathonAggregator(cache_ttl_seconds=300)
+
+# Automatic background refresh worker (refreshes live opportunities in background every 6 hours)
+def background_refresh_worker():
+    while True:
+        try:
+            aggregator.fetch_all(force_refresh=True)
+        except Exception:
+            pass
+        time.sleep(21600)  # 6 hours
+
+@app.on_event("startup")
+def startup_event():
+    # Start auto-refresh daemon thread
+    t = threading.Thread(target=background_refresh_worker, daemon=True)
+    t.start()
 
 # Notification Request Models
 class TelegramAlertRequest(BaseModel):
@@ -39,6 +56,9 @@ def get_hackathons(
     india_only: Optional[bool] = Query(None, description="Filter India hackathons"),
     online_only: Optional[bool] = Query(None, description="Filter online hackathons"),
     platform: Optional[str] = Query(None, description="Platform name"),
+    category: Optional[str] = Query(None, description="Category track"),
+    city: Optional[str] = Query(None, description="City location"),
+    min_prize: Optional[float] = Query(None, description="Minimum prize pool USD"),
     q: Optional[str] = Query(None, description="Search query"),
     status: Optional[str] = Query(None, description="Status filter"),
     refresh: bool = Query(False, description="Force refresh cache")
@@ -47,13 +67,17 @@ def get_hackathons(
         india_only=india_only,
         online_only=online_only,
         platform=platform,
+        category=category,
+        city=city,
+        min_prize_usd=min_prize,
         query=q,
         status=status,
         force_refresh=refresh
     )
     return {
         "count": len(results),
-        "hackathons": [h.to_dict() for h in results]
+        "hackathons": [h.to_dict() for h in results],
+        "last_updated": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime(aggregator._last_fetched)) if aggregator._last_fetched else "Live"
     }
 
 @app.get("/api/stats")
@@ -66,9 +90,18 @@ def export_hackathons(
     india_only: Optional[bool] = None,
     online_only: Optional[bool] = None,
     platform: Optional[str] = None,
+    category: Optional[str] = None,
+    city: Optional[str] = None,
     q: Optional[str] = None
 ):
-    items = aggregator.filter(india_only=india_only, online_only=online_only, platform=platform, query=q)
+    items = aggregator.filter(
+        india_only=india_only,
+        online_only=online_only,
+        platform=platform,
+        category=category,
+        city=city,
+        query=q
+    )
     if format == "csv":
         content = aggregator.export_csv(items)
         return Response(content=content, media_type="text/csv", headers={"Content-Disposition": "attachment; filename=hackathons.csv"})

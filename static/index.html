@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathon Hunter | 100% Free Hackathon Links (India & Global Online)</title>
-    <meta name="description" content="Discover, search, and track all latest hackathons across India and global online platforms including Devfolio, Unstop, Devpost, MLH, and HackerEarth for 100% free.">
+    <title>Hackathon Hunter | 100% Free Hackathons (India & Global Online)</title>
+    <meta name="description" content="Explore and filter latest hackathons across India & global online platforms (Devfolio, Unstop, Devpost, MLH, HackerEarth) with instant search, prize filters, and city filters.">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,11 +27,16 @@
                 </div>
                 <div class="brand-text">
                     <span class="brand-title">Hackathon<span class="gradient-text">Hunter</span></span>
-                    <span class="brand-badge">100% Free Aggregator</span>
+                    <span class="brand-badge">100% Free Live Aggregator</span>
                 </div>
             </div>
 
             <div class="header-actions">
+                <div class="live-sync-indicator" title="Data refreshes automatically">
+                    <span class="sync-dot"></span>
+                    <span id="sync-time-text">Live Synced</span>
+                </div>
+
                 <button id="btn-refresh" class="btn btn-secondary" title="Fetch latest hackathons from all sources">
                     <i data-lucide="refresh-cw"></i>
                     <span>Refresh Data</span>
@@ -68,7 +73,7 @@
                 Find Your Next Winning Hackathon in <span class="text-glow-in">India</span> & <span class="text-glow-global">Global Online</span>
             </h1>
             <p class="hero-subtitle">
-                Zero fees, no signups required. Aggregating 150+ live hackathons, direct apply links, prize pools, and instant calendar integrations.
+                Zero fees, no signups required. Aggregating 170+ live opportunities with smart category, city, and prize filters.
             </p>
 
             <!-- Quick Metrics / Stats Bar -->
@@ -79,7 +84,7 @@
                     </div>
                     <div class="stat-content">
                         <span class="stat-value" id="stat-total">--</span>
-                        <span class="stat-label">Total Hackathons</span>
+                        <span class="stat-label">Total Live Hackathons</span>
                     </div>
                 </div>
 
@@ -115,21 +120,22 @@
             </div>
         </section>
 
-        <!-- Controls / Filter Section -->
+        <!-- Comprehensive Filter & Control Panel -->
         <section class="control-panel">
+            <!-- 1. Search Bar -->
             <div class="search-bar-wrap">
                 <i data-lucide="search" class="search-icon"></i>
-                <input type="text" id="search-input" placeholder="Search by name, tags (AI, Web3, FinTech), college, or prize..." autocomplete="off">
+                <input type="text" id="search-input" placeholder="Search by name, tags (AI, Web3, FinTech), college, city, or prize..." autocomplete="off">
                 <button id="search-clear" class="btn-clear hidden" title="Clear search">
                     <i data-lucide="x"></i>
                 </button>
             </div>
 
-            <!-- Region & Mode Tabs -->
+            <!-- 2. Region / Mode Tabs & Sort -->
             <div class="filter-row">
                 <div class="tabs-group" id="region-tabs">
                     <button class="tab-btn active" data-region="all">
-                        <i data-lucide="layers"></i> All Opportunities
+                        <i data-lucide="layers"></i> All Regions
                     </button>
                     <button class="tab-btn" data-region="india">
                         <span class="flag">🇮🇳</span> India (In-Person & Online)
@@ -139,19 +145,66 @@
                     </button>
                 </div>
 
-                <div class="sort-wrap">
-                    <label for="sort-select"><i data-lucide="sliders-horizontal"></i></label>
-                    <select id="sort-select" class="custom-select">
-                        <option value="featured">Default Sort</option>
-                        <option value="prizes">Highest Prizes</option>
-                        <option value="name">Alphabetical</option>
-                    </select>
+                <div class="filter-controls-right">
+                    <!-- Prize Pool Range Selector -->
+                    <div class="select-group">
+                        <label for="prize-select"><i data-lucide="trophy"></i> Prize:</label>
+                        <select id="prize-select" class="custom-select">
+                            <option value="all">Any Prize Pool</option>
+                            <option value="mega">💎 Mega (> ₹5L / > $10k)</option>
+                            <option value="high">🥇 High (₹1L - ₹5L / $1k-$10k)</option>
+                            <option value="cash">💵 Any Cash Prize</option>
+                            <option value="swag">🎁 Swag & Certificates</option>
+                        </select>
+                    </div>
+
+                    <!-- Sort Selector -->
+                    <div class="select-group">
+                        <label for="sort-select"><i data-lucide="arrow-up-down"></i> Sort:</label>
+                        <select id="sort-select" class="custom-select">
+                            <option value="featured">Featured / Recent</option>
+                            <option value="prizes">Highest Prize Pool</option>
+                            <option value="name">Alphabetical (A-Z)</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
-            <!-- Platform Filters -->
+            <!-- 3. Opportunity Category Tracks -->
+            <div class="filter-category-row">
+                <span class="chips-label">Category Track:</span>
+                <div class="chips-list" id="category-chips">
+                    <button class="chip active" data-category="all">⚡ All Tracks</button>
+                    <button class="chip" data-category="AI & ML">🤖 AI & ML</button>
+                    <button class="chip" data-category="Web3 & Crypto">⛓️ Web3 & Crypto</button>
+                    <button class="chip" data-category="Students & Colleges">🎓 Students & Colleges</button>
+                    <button class="chip" data-category="Hiring & Careers">💼 Hiring & Careers</button>
+                    <button class="chip" data-category="Mobile & Web Dev">📱 Mobile & Web Dev</button>
+                    <button class="chip" data-category="Gaming & AR/VR">🎮 Gaming & AR/VR</button>
+                    <button class="chip" data-category="Cyber & Cloud">🛡️ Cyber & Cloud</button>
+                    <button class="chip" data-category="Open Innovation">🚀 Open Innovation</button>
+                </div>
+            </div>
+
+            <!-- 4. Location / City Filter Chips -->
+            <div class="filter-city-row">
+                <span class="chips-label">City / Venue:</span>
+                <div class="chips-list" id="city-chips">
+                    <button class="chip active" data-city="all">📍 All Cities</button>
+                    <button class="chip" data-city="Online (Virtual)">🌐 Online (Virtual)</button>
+                    <button class="chip" data-city="Bengaluru">🏙️ Bengaluru</button>
+                    <button class="chip" data-city="Delhi-NCR">🏛️ Delhi-NCR</button>
+                    <button class="chip" data-city="Mumbai">🌊 Mumbai</button>
+                    <button class="chip" data-city="Kolkata">🎨 Kolkata</button>
+                    <button class="chip" data-city="Chennai">🌴 Chennai</button>
+                    <button class="chip" data-city="Hyderabad">💎 Hyderabad</button>
+                    <button class="chip" data-city="Pune">🎓 Pune</button>
+                </div>
+            </div>
+
+            <!-- 5. Platform Filter Chips -->
             <div class="platform-chips-row">
-                <span class="chips-label">Platform:</span>
+                <span class="chips-label">Platform Source:</span>
                 <div class="chips-list" id="platform-chips">
                     <button class="chip active" data-platform="all">All Sources</button>
                     <button class="chip" data-platform="Devfolio">
@@ -177,15 +230,17 @@
         <section class="results-section">
             <div class="results-header">
                 <div class="results-counter">
-                    Showing <strong id="results-count" class="highlight-count">0</strong> hackathons
+                    Showing <strong id="results-count" class="highlight-count">0</strong> hackathons matching your filters
                 </div>
-                <div class="active-filter-indicators" id="active-filter-tags"></div>
+                <button id="btn-reset-all" class="btn btn-secondary btn-sm" title="Clear all active filters">
+                    <i data-lucide="rotate-ccw"></i> Reset Filters
+                </button>
             </div>
 
             <!-- Loading Skeleton / Spinner -->
             <div id="loading-state" class="loading-container">
                 <div class="spinner"></div>
-                <p>Fetching latest hackathons across all platforms...</p>
+                <p>Fetching and aggregating live hackathons from all platforms...</p>
             </div>
 
             <!-- Hackathon Cards Grid -->
@@ -196,9 +251,9 @@
                 <div class="empty-icon-wrap">
                     <i data-lucide="compass"></i>
                 </div>
-                <h3>No hackathons match your search</h3>
-                <p>Try clearing filters or searching for terms like "AI", "India", or "Web3".</p>
-                <button id="btn-reset-filters" class="btn btn-secondary">Reset All Filters</button>
+                <h3>No hackathons match the selected filters</h3>
+                <p>Try resetting some filters or searching for different keywords.</p>
+                <button id="btn-reset-filters" class="btn btn-primary">Reset All Filters</button>
             </div>
         </section>
     </main>
@@ -210,8 +265,8 @@
                 <div class="modal-title-wrap">
                     <div class="modal-icon"><i data-lucide="bot"></i></div>
                     <div>
-                        <h3>Free Telegram & Discord Bot Alerts</h3>
-                        <p>Receive notifications whenever new hackathons are posted for free.</p>
+                        <h3>Free Daily Alerts (8:00 AM IST)</h3>
+                        <p>Receive notifications whenever new hackathons are posted for 100% free.</p>
                     </div>
                 </div>
                 <button id="modal-close" class="btn-icon"><i data-lucide="x"></i></button>
@@ -235,11 +290,11 @@
             <!-- WhatsApp Tab -->
             <div id="tab-whatsapp" class="modal-tab-pane active">
                 <p class="guide-text">
-                    Get daily hackathons sent directly to your <strong>Personal WhatsApp</strong> for 100% free using <strong>CallMeBot</strong>:
+                    Get daily hackathons sent directly to your <strong>Personal WhatsApp</strong> for free using <strong>CallMeBot</strong>:
                 </p>
                 <div class="code-block-preview" style="margin-bottom: 1rem;">
-                    1. Save <code>+34 644 44 49 97</code> to your phone contacts.<br>
-                    2. Send WhatsApp message: <code>I allow callmebot to send me messages</code><br>
+                    1. Click to open: <a href="https://wa.me/34623761363?text=I+allow+callmebot+to+send+me+messages" target="_blank" style="color: #38bdf8;">wa.me/34623761363</a><br>
+                    2. Send message: <code>I allow callmebot to send me messages</code><br>
                     3. CallMeBot will reply with your free <strong>API Key</strong>!
                 </div>
                 <div class="form-group">
@@ -265,19 +320,18 @@
                     <input type="password" id="tg-token" placeholder="123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ">
                 </div>
                 <div class="form-group">
-                    <label>Telegram Channel / Chat ID (e.g. @my_hackathons)</label>
-                    <input type="text" id="tg-chat" placeholder="@my_hackathons or 987654321">
+                    <label>Telegram Channel / Chat ID (e.g. @my_hackathons or 5023127148)</label>
+                    <input type="text" id="tg-chat" placeholder="@my_hackathons or 5023127148">
                 </div>
                 <div class="modal-actions">
-                    <button id="btn-send-tg" class="btn btn-primary"><i data-lucide="send"></i> Broadcast Test to Telegram Channel</button>
+                    <button id="btn-send-tg" class="btn btn-primary"><i data-lucide="send"></i> Broadcast Test to Telegram</button>
                 </div>
             </div>
-
 
             <!-- Discord Tab -->
             <div id="tab-discord" class="modal-tab-pane hidden">
                 <p class="guide-text">
-                    In your Discord server settings, go to <strong>Integrations -> Webhooks -> New Webhook</strong>, copy the URL and paste it here:
+                    In your Discord server settings, go to <strong>Integrations -> Webhooks -> New Webhook</strong>:
                 </p>
                 <div class="form-group">
                     <label>Discord Webhook URL</label>
@@ -291,18 +345,15 @@
             <!-- GitHub Actions Tab -->
             <div id="tab-github" class="modal-tab-pane hidden">
                 <p class="guide-text">
-                    Want this to run automatically in the cloud on a schedule without keeping your computer on?
+                    Runs automatically 24/7 in the cloud at <strong>8:00 AM IST</strong> with zero server cost!
                 </p>
                 <div class="code-block-preview">
                     <code>
-                        # Pre-configured workflow included in your repository:<br>
+                        # Pre-configured in your GitHub Repository:<br>
                         # .github/workflows/hackathon_bot.yml<br>
-                        # Runs daily at 9:00 AM UTC with zero server cost!
+                        # Runs every day at 08:00 AM IST (02:30 UTC)
                     </code>
                 </div>
-                <p class="sub-guide-text">
-                    Simply push this folder to your GitHub repo and add your <code>TELEGRAM_BOT_TOKEN</code> in Repo Settings -> Secrets.
-                </p>
             </div>
             <div id="alert-status-msg" class="status-box hidden"></div>
         </div>
@@ -318,10 +369,10 @@
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-left">
-                <p>⚡ <strong>Hackathon Hunter</strong> — Zero API keys required • 100% Free & Open Source</p>
+                <p>⚡ <strong>Hackathon Hunter</strong> — 100% Free & Open Source Multi-Source Aggregator</p>
             </div>
             <div class="footer-right">
-                <span>Aggregating from Devfolio, Unstop, Devpost, HackerEarth & MLH</span>
+                <span>Devfolio • Unstop • Devpost • HackerEarth • MLH</span>
             </div>
         </div>
     </footer>

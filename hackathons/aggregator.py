@@ -64,6 +64,7 @@ class HackathonAggregator:
                 continue
             seen_titles.add(clean_title)
             seen_urls.add(clean_url)
+            h.compute_fields()
             deduped.append(h)
 
         self._cache = deduped
@@ -75,6 +76,9 @@ class HackathonAggregator:
         india_only: Optional[bool] = None,
         online_only: Optional[bool] = None,
         platform: Optional[str] = None,
+        category: Optional[str] = None,
+        city: Optional[str] = None,
+        min_prize_usd: Optional[float] = None,
         query: Optional[str] = None,
         status: Optional[str] = None,
         force_refresh: bool = False,
@@ -96,8 +100,18 @@ class HackathonAggregator:
         if platform and platform.lower() != "all":
             filtered = [h for h in filtered if h.platform.lower() == platform.lower()]
 
+        if category and category.lower() != "all":
+            filtered = [h for h in filtered if h.category.lower() == category.lower()]
+
+        if city and city.lower() != "all":
+            filtered = [h for h in filtered if h.city.lower() == city.lower()]
+
+        if min_prize_usd is not None and min_prize_usd > 0:
+            filtered = [h for h in filtered if (h.prize_usd_approx or 0) >= min_prize_usd]
+
         if status and status.lower() != "all":
             filtered = [h for h in filtered if h.status.lower() == status.lower()]
+
 
         if query:
             q = query.lower().strip()
