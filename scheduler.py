@@ -37,7 +37,7 @@ def run_sync():
 
 def main():
     parser = argparse.ArgumentParser(description="Automated Daily Hackathon Scheduler")
-    parser.add_argument("--time", type=str, default="09:00", help="Daily execution time in 24h format HH:MM (e.g. 09:00, 18:30)")
+    parser.add_argument("--time", type=str, default="08:00", help="Daily execution time in 24h format HH:MM (e.g. 08:00, 18:30)")
     parser.add_argument("--now", action="store_true", help="Run immediately once then wait for next scheduled time")
     args = parser.parse_args()
 

@@ -118,4 +118,4 @@ A workflow file is already included at `.github/workflows/hackathon_bot.yml`.
 1. Push this project to your private or public GitHub repository.
 2. In GitHub, go to **Settings -> Secrets and variables -> Actions**.
 3. Add your `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, or `DISCORD_WEBHOOK_URL`.
-4. The bot will automatically run every day at **9:00 AM UTC (2:30 PM IST)** and send new hackathon links to your channel with **zero server costs**!
+4. The bot will automatically run every day at **8:00 AM IST (02:30 UTC)** and send new hackathon links to your channel with **zero server costs**!
