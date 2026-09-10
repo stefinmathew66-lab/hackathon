@@ -1,11 +1,10 @@
 # 🚀 Latest Hackathons (India & Global Online)
 
-*Total Opportunities Found: 179*
+*Total Opportunities Found: 180*
 
 | Platform | Hackathon Title | Location / Mode | Prize Pool | Direct Apply Link |
 |---|---|---|---|---|
 | **Devpost** | RevenueCat Shipaton 2026 | 🌐 Online | $740,000 | [Apply / View](https://revenuecat-shipaton-2026.devpost.com/) |
-| **Devpost** | Agentic Cinema: The Blockbuster Hackathon | 🌐 Online | $75,000 | [Apply / View](https://agentic-cinema.devpost.com/) |
 | **Devpost** | Agents for Humans Hackathon | 🌐 Online | $40,000 | [Apply / View](https://agentsforhumans.devpost.com/) |
 | **Devpost** | Build, Ship, Shape: Amazon Developer Hackathon | 🌐 Online | $138,000 | [Apply / View](https://amazonappdev2026.devpost.com/) |
 | **Devpost** | Nebius x NVIDIA Global AI Hackathon | 🌐 Online | $50,000 | [Apply / View](https://nebiusglobalaihackathon.devpost.com/) |
@@ -20,8 +19,9 @@
 | **Devpost** | Beginner's Paradise - FirstCommit | 🌐 Online | $1,024 | [Apply / View](https://firstcommit.devpost.com/) |
 | **Devpost** | UnivaBio | 🌐 Online | $38,245 | [Apply / View](https://univabio.devpost.com/) |
 | **Devpost** | The Rice University Urban Sustainability Hackathon | 🌐 Online | $17,500 | [Apply / View](https://rice-urban-sustainability.devpost.com/) |
+| **Devpost** | Hack2Heal 2.0 - Global Healthcare Innovation Hackathon | 🌐 Online | $100 | [Apply / View](https://hack2heal.devpost.com/) |
 | **Devpost** | Code for Humanity | 🌐 Online | $0 | [Apply / View](https://code-for-humanity.devpost.com/) |
-| **Devpost** | COMPSPHERE 12 | 🌐 Online | $1,247 | [Apply / View](https://compsphere12.devpost.com/) |
+| **Devpost** | Hyperbloom September - AI/ML | 🌐 Online | $1,710 | [Apply / View](https://hyperbloom-september.devpost.com/) |
 | **Devfolio** | WebCraft24 | GL Bajaj Institute of Management, Sardar Fateh Singh Road, Knowledge Park III, Greater Noida, Uttar Pradesh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/webcraft24) |
 | **Devfolio** | Cognition - GameJam '26 | SIES Graduate School of Technology, Dr D Y Patil Vidyanagar, Sector 5, Nerul, Navi Mumbai, Maharashtra, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/cognition-gamejam-1) |
 | **Devfolio** | Binary Hacks 4.0 | Raj Kumar Goel Institute Of Technology, Raj Nagar Extension, Ghaziabad, Uttar Pradesh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/binary-hacks-4) |
@@ -30,13 +30,14 @@
 | **Devfolio** | Realm Hack '26 | College of Engineering Karunagappally, Thodiyoor, Karunagappally, Kerala, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/realm-hack-1) |
 | **Devfolio** | Builders Day by HackUnion | Lords Skill Academy, Mehdipatnam Road, Royal Colony, Humayun Nagar, Hyderabad, Telangana, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/builders-day-hackunion) |
 | **Devfolio** | DEVHACK 2026 | India (In-Person/Hybrid) 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/devhack2026) |
+| **Devfolio** | Recursive | Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/recursiveacm) |
 | **Devfolio** | DEFINE 4.0 | Mar Baselios College of Engineering and Technology (Autonomous), P.O, Nalanchira, Thattinakam, Thiruvananthapuram, Kerala, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/define4) |
+| **Devfolio** | GlitchFiesta | Kanpur, Uttar Pradesh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/glitchfiesta2026) |
 | **Devfolio** | HACK WITH GDG S4 | K S R College of Engineering, KSR Kalvi Nagar, Tamil Nadu, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hack-with-gdg-s4) |
 | **Devfolio** | BOSS Battle | 🌐 Online 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/boss-battle) |
 | **Devfolio** | Hackify 3.0 | Mar Athanasius College of Engineering Kothamangalam, Road, Kothamangalam, Kerala, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hackify-3) |
 | **Devfolio** | CodeStorm 2026: FutureForge | 🌐 Online 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/codestorm-futureforge) |
 | **Devfolio** | HackTopus'FE | GLA University, Bharthia, Mathura, Uttar Pradesh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hacktopusgdg) |
-| **Devfolio** | Recursive | Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/recursiveacm) |
 | **Devfolio** | HackInverse 1.0 | Kolkata, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hackinverse-s1) |
 | **Devfolio** | Hefty-Hacks | 🌐 Online 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hefty-hacks) |
 | **Devfolio** | Codeutsava X.0 | NIT Raipur, Great Eastern Road, Amanaka, Raipur, Chhattisgarh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/codeutsava-x) |
@@ -51,7 +52,6 @@
 | **Devfolio** | Hacknauts 2.0 | Guru Nanak Dev Engineering College, Gill Road, Gill Park, Ludhiana, Punjab, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hacknauts26) |
 | **Devfolio** | haxfinity | Amal College of Advanced Studies, Nilambur, Myladi, Eranhimangad, Kerala, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/haxfinity) |
 | **Devfolio** | Hackrit | Techno India University, EM Block, Sector V, Bidhannagar, Kolkata, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hackrit2026) |
-| **Devfolio** | Metamorph 2.0 | Guru Nanak Institute of Technology, Nilgunj Road, Sahid Colony, Panihati, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/metamorph-2) |
 | **Unstop** | HackCelestial 3.0 | Pillai University, Navi Mumbai 🇮🇳 | ₹150,000 | [Apply / View](https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808) |
 | **Unstop** | Inspiron 5.0 | COEP Technological University, Pune, Maharashtra 🇮🇳 | ₹20,000 | [Apply / View](https://unstop.com/hackathons/inspiron-50-computer-society-of-indiacsi-coep-tech-student-chapter-1630859) |
 | **Unstop** | WCE Hackathon 2026 | Walchand College of Engineering 🇮🇳 | ₹35,000 | [Apply / View](https://unstop.com/hackathons/wce-hackathon-2026-walchand-college-of-engineering-1630840) |
@@ -108,6 +108,7 @@
 | **MLH** | Fellowship FAQ | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackp.ac/fellowship-faq) |
 | **MLH** | HackRice | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackrice.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackRice) |
 | **MLH** | HackMTY 2026 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackmty.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackMTY+2026) |
+| **MLH** | HackCMU | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.acmatcmu.com/hackcmu2026/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackCMU) |
 | **MLH** | HackWesTX 26 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackwestx.gdgttu.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackWesTX+26) |
 | **MLH** | HackHers @GSU | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackhers.club/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackHers+%40GSU) |
 | **MLH** | Hack the North | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackthenorth.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+the+North) |
@@ -119,9 +120,9 @@
 | **MLH** | HackGT 13 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](http://hack.gt/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackGT+13) |
 | **MLH** | ShellHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://shellhacks.net/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=ShellHacks) |
 | **MLH** | Hack the Hill | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackthehill.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+the+Hill) |
-| **MLH** | hackUMBC | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackumbc.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackUMBC) |
-| **MLH** | DivHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.columbiadivhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DivHacks) |
 | **MLH** | OwlHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.owlhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=OwlHacks) |
+| **MLH** | DivHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.columbiadivhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DivHacks) |
+| **MLH** | hackUMBC | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackumbc.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackUMBC) |
 | **MLH** | BigRed//Hacks 2026 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.bigredhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=BigRed%2F%2FHacks+2026) |
 | **MLH** | Gator Quant Hacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.gqhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Gator+Quant+Hacks) |
 | **MLH** | Rowdy Hacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://rowdyhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Rowdy+Hacks) |
@@ -146,29 +147,29 @@
 | **MLH** | Hack at Penn State | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackpsu.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+at+Penn+State) |
 | **MLH** | hackCBS 9.O | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackcbs.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackCBS+9.O) |
 | **MLH** | HackUTD | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://zeroday.hackutd.co/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUTD) |
-| **MLH** | MakeCU | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://v0-curc-makecu.vercel.app/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MakeCU) |
 | **MLH** | HackRPI 2026 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackrpi.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackRPI+2026) |
+| **MLH** | MakeCU | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://v0-curc-makecu.vercel.app/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MakeCU) |
 | **MLH** | HackUMass | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.hackumass.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUMass) |
 | **MLH** | DurHack | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://durhack.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DurHack) |
 | **MLH** | DeltaHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.deltahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DeltaHacks) |
-| **MLH** | uOttaHack 9 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://2027.uottahack.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=uOttaHack+9) |
 | **MLH** | UofTHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://uofthacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UofTHacks) |
+| **MLH** | uOttaHack 9 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://2027.uottahack.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=uOttaHack+9) |
 | **MLH** | nwHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://nwhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=nwHacks) |
 | **MLH** | Hackville 2027 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackville.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hackville+2027) |
 | **MLH** | Hoya Hacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.hoyahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hoya+Hacks) |
 | **MLH** | ElleHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://ellehacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=ElleHacks) |
 | **MLH** | UGAHacks  | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://ugahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UGAHacks+) |
 | **MLH** | Hack@Brown 2027 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackatbrown.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack%40Brown+2027) |
-| **MLH** | Hack_NCState | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackncstate.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack_NCState) |
 | **MLH** | InnovateHer | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://innovateherhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=InnovateHer) |
+| **MLH** | Hack_NCState | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackncstate.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack_NCState) |
 | **MLH** | SpartaHack | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.spartahack.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SpartaHack) |
 | **MLH** | MakeUofT | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](http://makeuoft.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MakeUofT) |
 | **MLH** | SF Hacks  | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://sfhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SF+Hacks+) |
 | **MLH** | CUhackit | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://cuhack.it/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=CUhackit) |
-| **MLH** | HackIllinois | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.hackillinois.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackIllinois) |
 | **MLH** | Hacklytics 2027 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hacklytics2027.web.app/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hacklytics+2027) |
-| **MLH** | RevolutionUC | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.revolutionuc.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=RevolutionUC) |
+| **MLH** | HackIllinois | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.hackillinois.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackIllinois) |
 | **MLH** | HackHERS  | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://ruhackhers.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackHERS+) |
+| **MLH** | RevolutionUC | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.revolutionuc.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=RevolutionUC) |
 | **MLH** | WiCHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://wichacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=WiCHacks) |
 | **MLH** | HenHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.henhackshackathon.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HenHacks) |
 | **MLH** | Kent Hack Enough | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://khe.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Kent+Hack+Enough) |
