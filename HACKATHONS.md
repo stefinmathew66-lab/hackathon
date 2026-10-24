@@ -1,10 +1,9 @@
 # 🚀 Latest Hackathons (India & Global Online)
 
-*Total Opportunities Found: 195*
+*Total Opportunities Found: 198*
 
 | Platform | Hackathon Title | Location / Mode | Prize Pool | Direct Apply Link |
 |---|---|---|---|---|
-| **Devpost** | Build, Ship, Shape: Amazon Developer Hackathon | 🌐 Online | $138,000 | [Apply / View](https://amazonappdev2026.devpost.com/) |
 | **Devpost** | Nebius x NVIDIA Global AI Hackathon | 🌐 Online | $50,000 | [Apply / View](https://nebiusglobalaihackathon.devpost.com/) |
 | **Devpost** | PayPal AI Hackathon | 🌐 Online | $67,500 | [Apply / View](https://paypalaihackathon.devpost.com/) |
 | **Devpost** | OpenCV AI Competition 2026, powered by AWS | 🌐 Online | $20,250 | [Apply / View](https://opencv26.devpost.com/) |
@@ -18,13 +17,16 @@
 | **Devpost** | Learn AR with SPECS | 🌐 Online | $2,500 | [Apply / View](https://learn-specs.devpost.com/) |
 | **Devpost** | DSH Hacks V2 ($100k+ in prizes!) | 🌐 Online | $0 | [Apply / View](https://dsh-hacks-v2.devpost.com/) |
 | **Devpost** | Code for Humanity | 🌐 Online | $0 | [Apply / View](https://code-for-humanity.devpost.com/) |
-| **Devpost** | Neighborhood Hacks | 🌐 Online | $57,866 | [Apply / View](https://neighborhood-hacks-2026.devpost.com/) |
+| **Devpost** | UGREEN Hackathon 2026 on AI NAS | 🌐 Online | $46,000 | [Apply / View](https://ugreenhackathon.devpost.com/) |
+| **Devpost** | Codex x TwitchCon Hackathon | 🌐 Online | $25,000 | [Apply / View](https://twitchcon-codex.devpost.com/) |
 | **Devpost** | Arbiter Hacks V1 | 🌐 Online | $7,800 | [Apply / View](https://arbiter-hacks-v1.devpost.com/) |
 | **Devpost** | Syntax Summit | 🌐 Online | $0 | [Apply / View](https://syntax-summit.devpost.com/) |
-| **Devpost** | UGREEN Hackathon 2026 on AI NAS | 🌐 Online | $46,000 | [Apply / View](https://ugreenhackathon.devpost.com/) |
-| **Devfolio** | Cognition 2026 | Era Sezhiyan Auditorium, Mahatma Gandhi Block, III floor, Vellore, Tamil Nadu, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/cognition-2026) |
+| **Devpost** | Next Byte Hacks V5 | 🌐 Online | $100 | [Apply / View](https://next-byte-hacks-v5.devpost.com/) |
+| **HackerEarth** | Agentic Banking Hackathon | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/hackathon/agentic-banking-hackathon-2/) |
+| **HackerEarth** | MKS AI & Data Hackathon | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/) |
+| **HackerEarth** | GoDaddy Inclusive Innovation Hackathon 2026 | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/competitive/godaddy-inclusive-innovation-challenge-2026/) |
 | **Devfolio** | Version Beta 9.0 | MANIT, Maulana Azad National Institute of Technology, Bhopal, Madhya Pradesh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/version-beta-9) |
-| **Devfolio** | Syntax Error 2026 | 🌐 Online 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/syntax-error-6) |
+| **Devfolio** | Syntax Error 2026 | India (In-Person/Hybrid) 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/syntax-error-6) |
 | **Devfolio** | AgentVerse | UCL East - Marshgate, Sidings Street, London, UK | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/agentverse) |
 | **Devfolio** | TUM Blockchain & AI Hackathon | House of Communication, Friedenstraße, Munich, Germany 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/tum) |
 | **Devfolio** | Lean In Hacks 8.0 | India (In-Person/Hybrid) 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/lean-in-hacks-8) |
@@ -39,6 +41,7 @@
 | **Devfolio** | Hack Nexus 2027 | Nagpur, Maharashtra, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hack-nexus) |
 | **Devfolio** | HACK WITH GDG S4 | K S R College of Engineering, KSR Kalvi Nagar, Tamil Nadu, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hack-with-gdg-s4) |
 | **Devfolio** | CODERAVE 2.0 | India (In-Person/Hybrid) 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/coderave-2) |
+| **Devfolio** | Cognition 2026 | Era Sezhiyan Auditorium, Mahatma Gandhi Block, III floor, Vellore, Tamil Nadu, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/cognition-2026) |
 | **Devfolio** | Innosprint2.0 | Chandigarh University, NH-05, Ludhiana - Chandigarh NH, Chandigarh State, Punjab 140413, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/innosprint-3) |
 | **Devfolio** | BIOS V2 | Thapar Institute of Engineering & Technology, Bhadson Road, Adarsh Nagar, Prem Nagar, Patiala, Punjab, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/biosv2) |
 | **Devfolio** | Srijan Setu | Indo Global Colleges, New Chandigarh, Abhipur, Punjab, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/srijan-setu) |
