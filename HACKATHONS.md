@@ -6,14 +6,12 @@
 |---|---|---|---|---|
 | **Devpost** | Nebius x NVIDIA Global AI Hackathon | 🌐 Online | $50,000 | [Apply / View](https://nebiusglobalaihackathon.devpost.com/) |
 | **Devpost** | PayPal AI Hackathon | 🌐 Online | $67,500 | [Apply / View](https://paypalaihackathon.devpost.com/) |
-| **Devpost** | OpenCV AI Competition 2026, powered by AWS | 🌐 Online | $20,250 | [Apply / View](https://opencv26.devpost.com/) |
-| **Devpost** | Build With AI: Basics | 🌐 Online | $2,500 | [Apply / View](https://learn-ai-basics.devpost.com/) |
 | **Devpost** | Meta VR Start Developer Competition 2026 | 🌐 Online | $1,000,000 | [Apply / View](https://start-developer-competition-26.devpost.com/) |
 | **Devpost** | Life After Code | 🌐 Online | $45,000 | [Apply / View](https://gitlab-transcend.devpost.com/) |
 | **Devpost** | Qloo Agentic Hackathon | 🌐 Online | $25,000 | [Apply / View](https://qloo.devpost.com/) |
-| **Devpost** | AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon | 🌐 Online | $40,000 | [Apply / View](https://aws-cds-partner.devpost.com/) |
-| **Devpost** | YouCam API Skin AI & eCommerce VTO Hackathon | 🌐 Online | $6,000 | [Apply / View](https://youcam-api-skin-ai-ecommerce.devpost.com/) |
 | **Devpost** | Codex x TwitchCon Hackathon | 🌐 Online | $25,000 | [Apply / View](https://twitchcon-codex.devpost.com/) |
+| **Devpost** | YouCam API Skin AI & eCommerce VTO Hackathon | 🌐 Online | $6,000 | [Apply / View](https://youcam-api-skin-ai-ecommerce.devpost.com/) |
+| **Devpost** | AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon | 🌐 Online | $40,000 | [Apply / View](https://aws-cds-partner.devpost.com/) |
 | **Devpost** | Learn AR with SPECS | 🌐 Online | $2,500 | [Apply / View](https://learn-specs.devpost.com/) |
 | **Devpost** | UGREEN Hackathon 2026 on AI NAS | 🌐 Online | $46,000 | [Apply / View](https://ugreenhackathon.devpost.com/) |
 | **Devpost** | DSH Hacks V2 ($100k+ in prizes!) | 🌐 Online | $0 | [Apply / View](https://dsh-hacks-v2.devpost.com/) |
@@ -22,7 +20,9 @@
 | **Devpost** | Next Byte Hacks V5 | 🌐 Online | $100 | [Apply / View](https://next-byte-hacks-v5.devpost.com/) |
 | **Devpost** | Syntax Summit | 🌐 Online | $0 | [Apply / View](https://syntax-summit.devpost.com/) |
 | **Devpost** | CodeSprint by Elite Coders | 🌐 Online | ₹ 30,000 | [Apply / View](https://codesprint-by-elitecoders.devpost.com/) |
-| **HackerEarth** | MKS AI & Data Hackathon | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/) |
+| **Devpost** | InnovArt 2027: Art and Technology Hack Day | 🌐 Online | $0 | [Apply / View](https://innovart2027.devpost.com/) |
+| **Devpost** | 2026 International CodeTheCure Hackathon | 🌐 Online | $0 | [Apply / View](https://codethecure-hackathon-26.devpost.com/) |
+| **HackerEarth** | MKS AI/ML Hackathon | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/) |
 | **HackerEarth** | GoDaddy Inclusive Innovation Hackathon 2026 | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/competitive/godaddy-inclusive-innovation-challenge-2026/) |
 | **Devfolio** | Surat Hack 2026 | India Accelerator | IA Spaces - Coworking Space, Udhana - Magdalla Road, Piplod, Surat, Gujarat, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/surat-hack-2026) |
 | **Devfolio** | AgentVerse | UCL East - Marshgate, Sidings Street, London, UK | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/agentverse) |
