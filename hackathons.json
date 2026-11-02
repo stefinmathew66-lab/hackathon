@@ -1,56 +1,30 @@
 [
   {
-    "id": "unstop_1783260",
-    "title": "ELUCode - 7",
-    "url": "https://unstop.com/hackathons/elucode-7-edulinkup-1783260",
+    "id": "unstop_1789982",
+    "title": "Project Last Mile: Analytics Case Challenge",
+    "url": "https://unstop.com/hackathons/project-lastmile-analytics-case-challenge-xavier-school-of-management-xlri-1789982",
     "platform": "Unstop",
-    "description": "Organized by EduLinkUp. Register to participate and win prizes.",
+    "description": "Organized by Xavier School of Management (XLRI). Register to participate and win prizes.",
     "is_india": true,
     "is_online": true,
     "city": "Online (Virtual)",
     "start_date": null,
-    "end_date": "2026-11-07T21:00:00+05:30",
+    "end_date": "2026-11-16T21:52:00+05:30",
     "deadline": null,
-    "prize_pool": "Certificates & Mentorship",
-    "prize_usd_approx": 0.0,
+    "prize_pool": "\u20b97,000",
+    "prize_usd_approx": 82.3529411764706,
     "category": "Gaming & AR/VR",
     "location": "Online",
     "tags": [
       "Unstop",
       "Hackathon",
-      "EduLinkUp",
+      "Xavier School of Man",
       "Online",
       "India"
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743549"
-  },
-  {
-    "id": "unstop_1783515",
-    "title": "Rovermaggedon",
-    "url": "https://unstop.com/hackathons/rovermaggedon-iit-madras-1783515",
-    "platform": "Unstop",
-    "description": "Organized by Indian Institute of Technology (IIT), Madras. Register to participate and win prizes.",
-    "is_india": true,
-    "is_online": false,
-    "city": "Other India",
-    "start_date": null,
-    "end_date": "2027-01-04T17:00:00+05:30",
-    "deadline": null,
-    "prize_pool": "\u20b920,000",
-    "prize_usd_approx": 235.2941176470588,
-    "category": "Gaming & AR/VR",
-    "location": "Indian Institute of Technology (IIT), Madras",
-    "tags": [
-      "Unstop",
-      "Hackathon",
-      "Indian Institute of ",
-      "India"
-    ],
-    "thumbnail": null,
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743579"
+    "fetched_at": "2026-11-02T09:46:20.600882"
   },
   {
     "id": "unstop_1369976",
@@ -76,7 +50,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743594"
+    "fetched_at": "2026-11-02T09:46:20.600908"
   },
   {
     "id": "unstop_1346649",
@@ -103,7 +77,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743605"
+    "fetched_at": "2026-11-02T09:46:20.600914"
   },
   {
     "id": "unstop_910797",
@@ -129,7 +103,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743618"
+    "fetched_at": "2026-11-02T09:46:20.600921"
   },
   {
     "id": "unstop_783134",
@@ -155,7 +129,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743626"
+    "fetched_at": "2026-11-02T09:46:20.600929"
   },
   {
     "id": "unstop_682926",
@@ -181,7 +155,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743634"
+    "fetched_at": "2026-11-02T09:46:20.600933"
   },
   {
     "id": "unstop_675134",
@@ -208,7 +182,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743649"
+    "fetched_at": "2026-11-02T09:46:20.600937"
   },
   {
     "id": "unstop_675122",
@@ -235,7 +209,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743657"
+    "fetched_at": "2026-11-02T09:46:20.600949"
   },
   {
     "id": "unstop_593666",
@@ -261,7 +235,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743664"
+    "fetched_at": "2026-11-02T09:46:20.600956"
   },
   {
     "id": "unstop_583694",
@@ -287,7 +261,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743674"
+    "fetched_at": "2026-11-02T09:46:20.600961"
   },
   {
     "id": "unstop_432616",
@@ -313,7 +287,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743687"
+    "fetched_at": "2026-11-02T09:46:20.600965"
   },
   {
     "id": "unstop_10587",
@@ -340,7 +314,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743697"
+    "fetched_at": "2026-11-02T09:46:20.600970"
   },
   {
     "id": "unstop_267240",
@@ -367,7 +341,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743703"
+    "fetched_at": "2026-11-02T09:46:20.600975"
   },
   {
     "id": "unstop_257850",
@@ -394,7 +368,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743709"
+    "fetched_at": "2026-11-02T09:46:20.600979"
   },
   {
     "id": "unstop_253435",
@@ -421,7 +395,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743717"
+    "fetched_at": "2026-11-02T09:46:20.600983"
   },
   {
     "id": "unstop_224760",
@@ -447,101 +421,49 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743724"
+    "fetched_at": "2026-11-02T09:46:20.600987"
   },
   {
-    "id": "unstop_1787967",
-    "title": "Synapase 3.0",
-    "url": "https://unstop.com/hackathons/synapase-30-kalindi-college-kc-university-of-delhi-du-delhi-1787967",
+    "id": "unstop_1782683",
+    "title": "CTF - Capture The Flag",
+    "url": "https://unstop.com/hackathons/ctf-capture-the-flag-iit-madras-1782683",
     "platform": "Unstop",
-    "description": "Organized by Kalindi College (KC), University of Delhi (DU), Delhi. Register to participate and win prizes.",
-    "is_india": true,
-    "is_online": false,
-    "city": "Delhi-NCR",
-    "start_date": null,
-    "end_date": "2026-11-13T16:00:00+05:30",
-    "deadline": null,
-    "prize_pool": "Certificates & Mentorship",
-    "prize_usd_approx": 0.0,
-    "category": "Gaming & AR/VR",
-    "location": "Kalindi College (KC), University of Delhi (DU), Delhi",
-    "tags": [
-      "Unstop",
-      "Hackathon",
-      "Kalindi College (KC)",
-      "India"
-    ],
-    "thumbnail": null,
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743730"
-  },
-  {
-    "id": "unstop_1786387",
-    "title": "CODE SHIFT 2026",
-    "url": "https://unstop.com/hackathons/code-shift-2026-infotechiezz-1786387",
-    "platform": "Unstop",
-    "description": "Organized by InfoTechiezz. Register to participate and win prizes.",
+    "description": "Organized by Indian Institute of Technology (IIT), Madras. Register to participate and win prizes.",
     "is_india": true,
     "is_online": true,
     "city": "Online (Virtual)",
     "start_date": null,
-    "end_date": "2026-11-08T23:00:00+05:30",
+    "end_date": "2027-01-05T15:47:00+05:30",
     "deadline": null,
-    "prize_pool": "Certificates & Mentorship",
-    "prize_usd_approx": 0.0,
+    "prize_pool": "\u20b922,500",
+    "prize_usd_approx": 264.70588235294116,
     "category": "Gaming & AR/VR",
     "location": "Online",
     "tags": [
       "Unstop",
       "Hackathon",
-      "InfoTechiezz",
+      "Indian Institute of ",
       "Online",
       "India"
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743737"
+    "fetched_at": "2026-11-02T09:46:20.600991"
   },
   {
-    "id": "unstop_1786992",
-    "title": "Technova 2027",
-    "url": "https://unstop.com/hackathons/technova-2027-burhani-college-mumbai-1786992",
-    "platform": "Unstop",
-    "description": "Organized by Burhani College, Mumbai. Register to participate and win prizes.",
-    "is_india": true,
-    "is_online": false,
-    "city": "Mumbai",
-    "start_date": null,
-    "end_date": "2027-01-22T23:59:00+05:30",
-    "deadline": null,
-    "prize_pool": "Certificates & Mentorship",
-    "prize_usd_approx": 0.0,
-    "category": "AI & ML",
-    "location": "Burhani College, Mumbai",
-    "tags": [
-      "Unstop",
-      "Hackathon",
-      "Burhani College, Mum",
-      "India"
-    ],
-    "thumbnail": null,
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743743"
-  },
-  {
-    "id": "unstop_1784543",
-    "title": "SHAASTRA 2027",
-    "url": "https://unstop.com/hackathons/shaastra-2027-iit-madras-1784543",
+    "id": "unstop_1783515",
+    "title": "Rovermaggedon",
+    "url": "https://unstop.com/hackathons/rovermaggedon-iit-madras-1783515",
     "platform": "Unstop",
     "description": "Organized by Indian Institute of Technology (IIT), Madras. Register to participate and win prizes.",
     "is_india": true,
     "is_online": false,
     "city": "Other India",
     "start_date": null,
-    "end_date": "2027-01-05T18:01:00+05:30",
+    "end_date": "2027-01-04T17:00:00+05:30",
     "deadline": null,
-    "prize_pool": "\u20b950,000",
-    "prize_usd_approx": 588.2352941176471,
+    "prize_pool": "\u20b920,000",
+    "prize_usd_approx": 235.2941176470588,
     "category": "Gaming & AR/VR",
     "location": "Indian Institute of Technology (IIT), Madras",
     "tags": [
@@ -552,7 +474,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743756"
+    "fetched_at": "2026-11-02T09:46:20.600995"
   },
   {
     "id": "unstop_1785430",
@@ -579,7 +501,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743764"
+    "fetched_at": "2026-11-02T09:46:20.601000"
   },
   {
     "id": "unstop_1785416",
@@ -606,86 +528,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743769"
-  },
-  {
-    "id": "unstop_1783202",
-    "title": "COBOT-EX 2026 | Inter-College Hackathon",
-    "url": "https://unstop.com/hackathons/cobot-ex-2026-inter-college-hackathon-b-s-abdur-rahman-crescent-institute-of-science-and-technology-chennai-t-1783202",
-    "platform": "Unstop",
-    "description": "Organized by B. S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, Tamil Nadu. Register to participate and win prizes.",
-    "is_india": true,
-    "is_online": false,
-    "city": "Chennai",
-    "start_date": null,
-    "end_date": "2026-11-07T12:00:00+05:30",
-    "deadline": null,
-    "prize_pool": "\u20b93,000",
-    "prize_usd_approx": 35.294117647058826,
-    "category": "AI & ML",
-    "location": "B. S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, Tamil Nadu",
-    "tags": [
-      "Unstop",
-      "Hackathon",
-      "B. S. Abdur Rahman C",
-      "India"
-    ],
-    "thumbnail": null,
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743776"
-  },
-  {
-    "id": "unstop_1781078",
-    "title": "Algonex 1.0",
-    "url": "https://unstop.com/hackathons/algonex-10-maya-devi-university-1781078",
-    "platform": "Unstop",
-    "description": "Organized by Maya devi university. Register to participate and win prizes.",
-    "is_india": true,
-    "is_online": false,
-    "city": "Other India",
-    "start_date": null,
-    "end_date": "2026-11-28T18:00:00+05:30",
-    "deadline": null,
-    "prize_pool": "\u20b965,000",
-    "prize_usd_approx": 764.7058823529412,
-    "category": "Gaming & AR/VR",
-    "location": "Maya devi university",
-    "tags": [
-      "Unstop",
-      "Hackathon",
-      "Maya devi university",
-      "India"
-    ],
-    "thumbnail": null,
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743782"
-  },
-  {
-    "id": "unstop_1783707",
-    "title": "Forge '26 \u2013 India's Biggest Gen AI Buildathon",
-    "url": "https://unstop.com/hackathons/forge-26-indias-biggest-gen-ai-buildathon-nxtwave-launchpad-1783707",
-    "platform": "Unstop",
-    "description": "Organized by NxtWave Launchpad. Register to participate and win prizes.",
-    "is_india": true,
-    "is_online": true,
-    "city": "Online (Virtual)",
-    "start_date": null,
-    "end_date": "2026-11-01T18:00:00+05:30",
-    "deadline": null,
-    "prize_pool": "Certificates & Mentorship",
-    "prize_usd_approx": 0.0,
-    "category": "AI & ML",
-    "location": "Online",
-    "tags": [
-      "Unstop",
-      "Hackathon",
-      "NxtWave Launchpad",
-      "Online",
-      "India"
-    ],
-    "thumbnail": null,
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743790"
+    "fetched_at": "2026-11-02T09:46:20.601010"
   },
   {
     "id": "unstop_1737808",
@@ -711,7 +554,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743796"
+    "fetched_at": "2026-11-02T09:46:20.601017"
   },
   {
     "id": "unstop_1437224",
@@ -737,7 +580,7 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743802"
+    "fetched_at": "2026-11-02T09:46:20.601022"
   },
   {
     "id": "unstop_1370024",
@@ -763,7 +606,165 @@
     ],
     "thumbnail": null,
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:55.743810"
+    "fetched_at": "2026-11-02T09:46:20.601026"
+  },
+  {
+    "id": "unstop_910679",
+    "title": "Auction of Bytes",
+    "url": "https://unstop.com/hackathons/auction-of-bytes-techmarathon24-dduc-du-new-delhi-910679",
+    "platform": "Unstop",
+    "description": "Organized by Deen Dayal Upadhaya College (DDUC), University of Delhi (DU), New Delhi. Register to participate and win prizes.",
+    "is_india": true,
+    "is_online": false,
+    "city": "Delhi-NCR",
+    "start_date": null,
+    "end_date": "2024-03-03T00:00:00+05:30",
+    "deadline": null,
+    "prize_pool": "\u20b94,000",
+    "prize_usd_approx": 47.05882352941177,
+    "category": "Gaming & AR/VR",
+    "location": "Deen Dayal Upadhaya College (DDUC), University of Delhi (DU), New Delhi",
+    "tags": [
+      "Unstop",
+      "Hackathon",
+      "Deen Dayal Upadhaya ",
+      "India"
+    ],
+    "thumbnail": null,
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:20.601033"
+  },
+  {
+    "id": "unstop_908983",
+    "title": "Tech Escapade",
+    "url": "https://unstop.com/hackathons/tech-escapade-techmarathon24-dduc-du-new-delhi-908983",
+    "platform": "Unstop",
+    "description": "Organized by Deen Dayal Upadhaya College (DDUC), University of Delhi (DU), New Delhi. Register to participate and win prizes.",
+    "is_india": true,
+    "is_online": false,
+    "city": "Delhi-NCR",
+    "start_date": null,
+    "end_date": "2024-03-03T00:00:00+05:30",
+    "deadline": null,
+    "prize_pool": "\u20b92,500",
+    "prize_usd_approx": 29.41176470588235,
+    "category": "Gaming & AR/VR",
+    "location": "Deen Dayal Upadhaya College (DDUC), University of Delhi (DU), New Delhi",
+    "tags": [
+      "Unstop",
+      "Hackathon",
+      "Deen Dayal Upadhaya ",
+      "India"
+    ],
+    "thumbnail": null,
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:20.601037"
+  },
+  {
+    "id": "unstop_888399",
+    "title": "Codelocks",
+    "url": "https://unstop.com/hackathons/codelocks-invictus24-dtu-new-delhi-888399",
+    "platform": "Unstop",
+    "description": "Organized by Delhi Technological University (DTU), New Delhi. Register to participate and win prizes.",
+    "is_india": true,
+    "is_online": false,
+    "city": "Delhi-NCR",
+    "start_date": null,
+    "end_date": "2024-02-09T23:59:00+05:30",
+    "deadline": null,
+    "prize_pool": "Certificates & Mentorship",
+    "prize_usd_approx": 0.0,
+    "category": "Gaming & AR/VR",
+    "location": "Delhi Technological University (DTU), New Delhi",
+    "tags": [
+      "Unstop",
+      "Hackathon",
+      "Delhi Technological ",
+      "India"
+    ],
+    "thumbnail": null,
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:20.601040"
+  },
+  {
+    "id": "unstop_872352",
+    "title": "Password 2024",
+    "url": "https://unstop.com/hackathons/password-2024-vit-chennai-872352",
+    "platform": "Unstop",
+    "description": "Organized by Vellore Institute of Technology (VIT), Vellore. Register to participate and win prizes.",
+    "is_india": true,
+    "is_online": false,
+    "city": "Other India",
+    "start_date": null,
+    "end_date": "2024-01-28T23:59:00+05:30",
+    "deadline": null,
+    "prize_pool": "\u20b95,000",
+    "prize_usd_approx": 58.8235294117647,
+    "category": "Gaming & AR/VR",
+    "location": "Vellore Institute of Technology (VIT), Vellore",
+    "tags": [
+      "Unstop",
+      "Hackathon",
+      "Vellore Institute of",
+      "India"
+    ],
+    "thumbnail": null,
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:20.601043"
+  },
+  {
+    "id": "unstop_742316",
+    "title": "Codex Nexus- The Innovation Marathon",
+    "url": "https://unstop.com/hackathons/codex-nexus-the-innovation-marathon-codevita-live-742316",
+    "platform": "Unstop",
+    "description": "Organized by Codevita Live. Register to participate and win prizes.",
+    "is_india": true,
+    "is_online": true,
+    "city": "Online (Virtual)",
+    "start_date": null,
+    "end_date": "2023-10-23T21:33:38+05:30",
+    "deadline": null,
+    "prize_pool": "Certificates & Mentorship",
+    "prize_usd_approx": 0.0,
+    "category": "Gaming & AR/VR",
+    "location": "Online",
+    "tags": [
+      "Unstop",
+      "Hackathon",
+      "Codevita Live",
+      "Online",
+      "India"
+    ],
+    "thumbnail": null,
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:20.601049"
+  },
+  {
+    "id": "unstop_674977",
+    "title": "Code.AIthon",
+    "url": "https://unstop.com/hackathons/codeaithon-codevita-live-674977",
+    "platform": "Unstop",
+    "description": "Organized by Codevita Live. Register to participate and win prizes.",
+    "is_india": true,
+    "is_online": true,
+    "city": "Online (Virtual)",
+    "start_date": null,
+    "end_date": "2023-06-02T21:29:35+05:30",
+    "deadline": null,
+    "prize_pool": "Certificates & Mentorship",
+    "prize_usd_approx": 0.0,
+    "category": "AI & ML",
+    "location": "Online",
+    "tags": [
+      "Unstop",
+      "Hackathon",
+      "Codevita Live",
+      "Online",
+      "India"
+    ],
+    "thumbnail": null,
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:20.601053"
   },
   {
     "id": "devpost_31302",
@@ -791,7 +792,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/985/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836632"
+    "fetched_at": "2026-11-02T09:46:20.681739"
   },
   {
     "id": "devpost_31667",
@@ -819,7 +820,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/585/149/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836655"
+    "fetched_at": "2026-11-02T09:46:20.681756"
   },
   {
     "id": "devpost_31024",
@@ -847,7 +848,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836668"
+    "fetched_at": "2026-11-02T09:46:20.681763"
   },
   {
     "id": "devpost_31742",
@@ -875,7 +876,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/656/411/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836678"
+    "fetched_at": "2026-11-02T09:46:20.681768"
   },
   {
     "id": "devpost_31400",
@@ -903,7 +904,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/375/196/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836688"
+    "fetched_at": "2026-11-02T09:46:20.681774"
   },
   {
     "id": "devpost_31572",
@@ -931,35 +932,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/479/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836697"
-  },
-  {
-    "id": "devpost_31659",
-    "title": "Learn AR with SPECS",
-    "url": "https://learn-specs.devpost.com/",
-    "platform": "Devpost",
-    "description": "Hosted by Devpost. Submission period: Oct 15 - Nov 09, 2026.",
-    "is_india": false,
-    "is_online": true,
-    "city": "Online (Virtual)",
-    "start_date": "Oct 15 - Nov 09, 2026",
-    "end_date": null,
-    "deadline": null,
-    "prize_pool": "$2,500",
-    "prize_usd_approx": 2500.0,
-    "category": "AI & ML",
-    "location": "Online",
-    "tags": [
-      "Devpost",
-      "Global",
-      "AR/VR",
-      "Machine Learning/AI",
-      "Design",
-      "Online"
-    ],
-    "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/541/121/datas/medium_square.png",
-    "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836715"
+    "fetched_at": "2026-11-02T09:46:20.681779"
   },
   {
     "id": "devpost_31552",
@@ -987,7 +960,35 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/690/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836732"
+    "fetched_at": "2026-11-02T09:46:20.681786"
+  },
+  {
+    "id": "devpost_31659",
+    "title": "Learn AR with SPECS",
+    "url": "https://learn-specs.devpost.com/",
+    "platform": "Devpost",
+    "description": "Hosted by Devpost. Submission period: Oct 15 - Nov 09, 2026.",
+    "is_india": false,
+    "is_online": true,
+    "city": "Online (Virtual)",
+    "start_date": "Oct 15 - Nov 09, 2026",
+    "end_date": null,
+    "deadline": null,
+    "prize_pool": "$2,500",
+    "prize_usd_approx": 2500.0,
+    "category": "AI & ML",
+    "location": "Online",
+    "tags": [
+      "Devpost",
+      "Global",
+      "AR/VR",
+      "Machine Learning/AI",
+      "Design",
+      "Online"
+    ],
+    "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/541/121/datas/medium_square.png",
+    "status": "Ongoing",
+    "fetched_at": "2026-11-02T09:46:20.681797"
   },
   {
     "id": "devpost_30500",
@@ -1015,7 +1016,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/152/677/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.836742"
+    "fetched_at": "2026-11-02T09:46:20.681802"
   },
   {
     "id": "devpost_30789",
@@ -1043,7 +1044,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/995/823/datas/medium_square.jpg",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947365"
+    "fetched_at": "2026-11-02T09:46:20.819398"
   },
   {
     "id": "devpost_30740",
@@ -1071,7 +1072,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/909/585/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947385"
+    "fetched_at": "2026-11-02T09:46:20.819416"
   },
   {
     "id": "devpost_31627",
@@ -1099,7 +1100,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/524/008/datas/medium_square.jpg",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947396"
+    "fetched_at": "2026-11-02T09:46:20.819422"
   },
   {
     "id": "devpost_30764",
@@ -1127,7 +1128,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/929/208/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947405"
+    "fetched_at": "2026-11-02T09:46:20.819427"
   },
   {
     "id": "devpost_31580",
@@ -1155,7 +1156,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/544/995/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947413"
+    "fetched_at": "2026-11-02T09:46:20.819432"
   },
   {
     "id": "devpost_31773",
@@ -1182,7 +1183,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/592/065/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947421"
+    "fetched_at": "2026-11-02T09:46:20.819453"
   },
   {
     "id": "devpost_31108",
@@ -1210,7 +1211,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/163/349/datas/medium_square.jpg",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947428"
+    "fetched_at": "2026-11-02T09:46:20.819458"
   },
   {
     "id": "devpost_31789",
@@ -1238,7 +1239,7 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/600/935/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947435"
+    "fetched_at": "2026-11-02T09:46:20.819463"
   },
   {
     "id": "devpost_31796",
@@ -1266,10 +1267,10 @@
     ],
     "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/787/datas/medium_square.png",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:55.947443"
+    "fetched_at": "2026-11-02T09:46:20.819467"
   },
   {
-    "id": "he_8906463576784053693",
+    "id": "he_8476334568490934618",
     "title": "IBM Z Day",
     "url": "https://www.hackerearth.com/challenges/hackathon/ibm-z-day/",
     "platform": "HackerEarth",
@@ -1293,10 +1294,10 @@
     ],
     "thumbnail": "https://media.hackerearth.com/media/hackathon/ibm-z-day/images/7dacf3c3d4-IBM_Z_Day_Geometric_Emblem.jpg",
     "status": "Ongoing",
-    "fetched_at": "2026-11-01T09:29:56.424097"
+    "fetched_at": "2026-11-02T09:46:21.291381"
   },
   {
-    "id": "he_7137379635297461204",
+    "id": "he_2809246799545908282",
     "title": "MKS AI/ML Hackathon",
     "url": "https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/",
     "platform": "HackerEarth",
@@ -1320,7 +1321,7 @@
     ],
     "thumbnail": "https://media.hackerearth.com/media/hackathon/mks-inc-hackathon/images/784b6f95cb-AI__Data_1_1.jpg",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.424114"
+    "fetched_at": "2026-11-02T09:46:21.291399"
   },
   {
     "id": "devfolio_devnexus2",
@@ -1332,7 +1333,7 @@
     "is_online": false,
     "city": "Kolkata",
     "start_date": "2026-09-18T18:30:00.000Z",
-    "end_date": "2026-11-01T18:30:00.000Z",
+    "end_date": "2026-11-03T18:30:00.000Z",
     "deadline": null,
     "prize_pool": "Prizes & Swag",
     "prize_usd_approx": 0.0,
@@ -1345,32 +1346,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/d957bc2099f945e99edfae0c2972bed9/assets/logo/651.jpeg",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.612981"
-  },
-  {
-    "id": "devfolio_hacknauts26",
-    "title": "Hacknauts 2.0",
-    "url": "https://devfolio.co/hackathons/hacknauts26",
-    "platform": "Devfolio",
-    "description": "Explore and build at Hacknauts 2.0 on Devfolio.",
-    "is_india": true,
-    "is_online": false,
-    "city": "Other India",
-    "start_date": "2026-08-20T18:30:00.000Z",
-    "end_date": "2026-11-03T18:29:00.000Z",
-    "deadline": null,
-    "prize_pool": "Prizes & Swag",
-    "prize_usd_approx": 0.0,
-    "category": "Open Innovation",
-    "location": "Guru Nanak Dev Engineering College, Gill Road, Gill Park, Ludhiana, Punjab, India",
-    "tags": [
-      "Devfolio",
-      "Tech",
-      "India"
-    ],
-    "thumbnail": "https://assets.devfolio.co/hackathons/c4045a4afcb94f6f89cfb8c48dfdf892/assets/logo/630.png",
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613002"
+    "fetched_at": "2026-11-02T09:46:21.692329"
   },
   {
     "id": "devfolio_the-big-hack-2",
@@ -1395,7 +1371,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/0dab52b6085941a6b366b2425310d8b8/assets/logo/847.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613011"
+    "fetched_at": "2026-11-02T09:46:21.692349"
   },
   {
     "id": "devfolio_haxfinity",
@@ -1420,7 +1396,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/50e23a48e3964f43878279a3bf81339d/assets/logo/960.jpeg",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613023"
+    "fetched_at": "2026-11-02T09:46:21.692355"
   },
   {
     "id": "devfolio_genarrative-clash",
@@ -1445,7 +1421,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/40f5203a0b9842038b51dd3f73236690/assets/logo/897.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613032"
+    "fetched_at": "2026-11-02T09:46:21.692361"
   },
   {
     "id": "devfolio_lean-in-hacks-8",
@@ -1470,7 +1446,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/assets/logo/842.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613040"
+    "fetched_at": "2026-11-02T09:46:21.692366"
   },
   {
     "id": "devfolio_chiangmai",
@@ -1495,7 +1471,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/cf5fb5645ec44de88ee455be936825da/assets/logo/744.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613050"
+    "fetched_at": "2026-11-02T09:46:21.692372"
   },
   {
     "id": "devfolio_hackodisha-6a",
@@ -1521,7 +1497,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/c84b90d65eff4ae083366fc1cc549e81/assets/logo/565.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613064"
+    "fetched_at": "2026-11-02T09:46:21.692377"
   },
   {
     "id": "devfolio_hack-nexus",
@@ -1546,7 +1522,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/409173af22ac40d5aecb47ea06886ab3/assets/logo/412.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613072"
+    "fetched_at": "2026-11-02T09:46:21.692387"
   },
   {
     "id": "devfolio_hacksprint-3",
@@ -1557,7 +1533,7 @@
     "is_india": true,
     "is_online": false,
     "city": "Other India",
-    "start_date": "2026-11-04T06:30:00.000Z",
+    "start_date": "2026-11-08T06:30:00.000Z",
     "end_date": "2026-12-28T18:29:00.000Z",
     "deadline": null,
     "prize_pool": "Prizes & Swag",
@@ -1571,7 +1547,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/6ab81312cb504b4195e46290f44e7191/assets/logo/904.jpeg",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613080"
+    "fetched_at": "2026-11-02T09:46:21.692391"
   },
   {
     "id": "devfolio_innerve-11",
@@ -1596,7 +1572,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/feaf6d51a5ba4774acf1ccaaa1d4b789/assets/logo/191.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613087"
+    "fetched_at": "2026-11-02T09:46:21.692401"
   },
   {
     "id": "devfolio_hack-with-gdg-s4",
@@ -1621,7 +1597,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/c163f2c5e7bb4c7bb7acbdb3c572bfa3/assets/logo/25.jpeg",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613097"
+    "fetched_at": "2026-11-02T09:46:21.692406"
   },
   {
     "id": "devfolio_hack-1736",
@@ -1646,7 +1622,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/1c56ad13b8b0467ca2c3772566a0fdd2/assets/logo/414.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613104"
+    "fetched_at": "2026-11-02T09:46:21.692411"
   },
   {
     "id": "devfolio_coderave-2",
@@ -1671,7 +1647,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/c3799771d6044d5dab5b1166ed242bc7/assets/logo/330.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613110"
+    "fetched_at": "2026-11-02T09:46:21.692415"
   },
   {
     "id": "devfolio_diversion2k27",
@@ -1696,7 +1672,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/8cf5de84ec814a8daf7f6c4caf538045/assets/logo/202.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613117"
+    "fetched_at": "2026-11-02T09:46:21.692419"
   },
   {
     "id": "devfolio_eclipse",
@@ -1721,7 +1697,32 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/33da0fd4233c4ea1a4549375c145864c/assets/logo/817.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613124"
+    "fetched_at": "2026-11-02T09:46:21.692424"
+  },
+  {
+    "id": "devfolio_hacknauts26",
+    "title": "Hacknauts 2.0",
+    "url": "https://devfolio.co/hackathons/hacknauts26",
+    "platform": "Devfolio",
+    "description": "Explore and build at Hacknauts 2.0 on Devfolio.",
+    "is_india": true,
+    "is_online": false,
+    "city": "Other India",
+    "start_date": "2026-08-20T18:30:00.000Z",
+    "end_date": "2026-11-02T09:30:00.000Z",
+    "deadline": null,
+    "prize_pool": "Prizes & Swag",
+    "prize_usd_approx": 0.0,
+    "category": "Open Innovation",
+    "location": "Guru Nanak Dev Engineering College, Gill Road, Gill Park, Ludhiana, Punjab, India",
+    "tags": [
+      "Devfolio",
+      "Tech",
+      "India"
+    ],
+    "thumbnail": "https://assets.devfolio.co/hackathons/c4045a4afcb94f6f89cfb8c48dfdf892/assets/logo/630.png",
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:21.692428"
   },
   {
     "id": "devfolio_tum",
@@ -1746,7 +1747,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/528f2495b98b4f38ae41139390594a3a/assets/logo/733.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613137"
+    "fetched_at": "2026-11-02T09:46:21.692448"
   },
   {
     "id": "devfolio_agentverse",
@@ -1770,7 +1771,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/4c311506be0e4a6e9299199c09efe290/assets/logo/630.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613146"
+    "fetched_at": "2026-11-02T09:46:21.692453"
   },
   {
     "id": "devfolio_surat-hack-2026",
@@ -1795,7 +1796,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/0ad8f867250d46bd987623adb920028f/assets/logo/244.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613153"
+    "fetched_at": "2026-11-02T09:46:21.692458"
   },
   {
     "id": "devfolio_version-beta-9",
@@ -1820,7 +1821,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/235fc76a63434ffe9b5aa63dea440833/assets/logo/832.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613160"
+    "fetched_at": "2026-11-02T09:46:21.692462"
   },
   {
     "id": "devfolio_syntax-error-6",
@@ -1845,7 +1846,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/803a860a777346fb8eebbb6ce4b6607e/assets/logo/351.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613167"
+    "fetched_at": "2026-11-02T09:46:21.692466"
   },
   {
     "id": "devfolio_cognition-2026",
@@ -1870,7 +1871,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/a3b0522c045d4e8ea041b25576c2ed5a/assets/logo/13.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613176"
+    "fetched_at": "2026-11-02T09:46:21.692470"
   },
   {
     "id": "devfolio_innosprint-3",
@@ -1895,7 +1896,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/c7065105fdfc4d9bb4f50e22aa94f301/assets/logo/144.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613183"
+    "fetched_at": "2026-11-02T09:46:21.692474"
   },
   {
     "id": "devfolio_biosv2",
@@ -1920,7 +1921,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/9355584ad9e543b5a90f602a27a596b4/assets/logo/893.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613190"
+    "fetched_at": "2026-11-02T09:46:21.692478"
   },
   {
     "id": "devfolio_srijan-setu",
@@ -1945,7 +1946,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/3376db42dfbe44a8a4b576d4d52dae28/assets/logo/914.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613196"
+    "fetched_at": "2026-11-02T09:46:21.692482"
   },
   {
     "id": "devfolio_hacker-house-goa-2026",
@@ -1970,7 +1971,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/6b8701ece63444619285ea50db89a8bc/assets/logo/369.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613203"
+    "fetched_at": "2026-11-02T09:46:21.692485"
   },
   {
     "id": "devfolio_hackman-x",
@@ -1995,7 +1996,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/2232040a0743421db4a3b6094a7a4122/assets/logo/269.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613210"
+    "fetched_at": "2026-11-02T09:46:21.692490"
   },
   {
     "id": "devfolio_nexwin-internal-hackathon",
@@ -2020,7 +2021,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/3c21591941ca493289b4531fc373d3d4/assets/logo/421.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613217"
+    "fetched_at": "2026-11-02T09:46:21.692494"
   },
   {
     "id": "devfolio_arkiv",
@@ -2046,7 +2047,7 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/55466cd6b4be4f63936a9f55032825f2/assets/logo/844.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613226"
+    "fetched_at": "2026-11-02T09:46:21.692500"
   },
   {
     "id": "devfolio_hft2026",
@@ -2071,10 +2072,10 @@
     ],
     "thumbnail": "https://assets.devfolio.co/hackathons/0c74c99ebe4d4bc8b1b9972451f350ca/assets/logo/469.jpeg",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.613233"
+    "fetched_at": "2026-11-02T09:46:21.692503"
   },
   {
-    "id": "mlh_1075926640138743378",
+    "id": "mlh_5916777015697023106",
     "title": "DEV",
     "url": "https://dev.to/?utm_source=mlh&utm_medium=referral&utm_content=DEV",
     "platform": "MLH",
@@ -2097,10 +2098,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.067828"
+    "fetched_at": "2026-11-02T09:46:21.006470"
   },
   {
-    "id": "mlh_2952029648689015217",
+    "id": "mlh_6856021323942821069",
     "title": "HackPrix Season 3",
     "url": "https://s3.hackprix.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackPrix+Season+3",
     "platform": "MLH",
@@ -2124,10 +2125,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.067879"
+    "fetched_at": "2026-11-02T09:46:21.006508"
   },
   {
-    "id": "mlh_4424942848360931885",
+    "id": "mlh_6783080549169909557",
     "title": "JAMHacks 10",
     "url": "https://jamhacks.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=JAMHacks+10",
     "platform": "MLH",
@@ -2150,10 +2151,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.067916"
+    "fetched_at": "2026-11-02T09:46:21.006532"
   },
   {
-    "id": "mlh_6402868433898364338",
+    "id": "mlh_5823801326430687725",
     "title": "Hack4Her",
     "url": "https://www.hack4her.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack4Her",
     "platform": "MLH",
@@ -2176,10 +2177,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.067944"
+    "fetched_at": "2026-11-02T09:46:21.006548"
   },
   {
-    "id": "mlh_7165304050215366508",
+    "id": "mlh_4250765519123389947",
     "title": "MPC Hacks",
     "url": "https://mpchacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MPC+Hacks",
     "platform": "MLH",
@@ -2202,10 +2203,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.067969"
+    "fetched_at": "2026-11-02T09:46:21.006562"
   },
   {
-    "id": "mlh_2195264715477391321",
+    "id": "mlh_7402203139861333434",
     "title": "Quackhacks 3",
     "url": "https://www.quackhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Quackhacks+3",
     "platform": "MLH",
@@ -2228,10 +2229,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.067992"
+    "fetched_at": "2026-11-02T09:46:21.006575"
   },
   {
-    "id": "mlh_7329443623592192570",
+    "id": "mlh_7321112882388360069",
     "title": "HackHCC",
     "url": "https://hackhcc.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackHCC",
     "platform": "MLH",
@@ -2254,10 +2255,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068014"
+    "fetched_at": "2026-11-02T09:46:21.006587"
   },
   {
-    "id": "mlh_6023967348963885778",
+    "id": "mlh_6726934165753563512",
     "title": "DesignVerse",
     "url": "https://www.designverseucr.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DesignVerse",
     "platform": "MLH",
@@ -2280,10 +2281,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068036"
+    "fetched_at": "2026-11-02T09:46:21.006599"
   },
   {
-    "id": "mlh_488384448789665965",
+    "id": "mlh_4556684410479339349",
     "title": "KentHackIt",
     "url": "https://www.kenthackit.co.uk/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=KentHackIt",
     "platform": "MLH",
@@ -2306,10 +2307,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068060"
+    "fetched_at": "2026-11-02T09:46:21.006612"
   },
   {
-    "id": "mlh_8277227122230382479",
+    "id": "mlh_7537571013460249586",
     "title": "MasseyHacks",
     "url": "https://masseyhacks.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MasseyHacks",
     "platform": "MLH",
@@ -2332,10 +2333,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068081"
+    "fetched_at": "2026-11-02T09:46:21.006623"
   },
   {
-    "id": "mlh_8131017246502089359",
+    "id": "mlh_3405946001197794639",
     "title": "INTERHACK BCN",
     "url": "https://www.interhackbcn.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=INTERHACK+BCN",
     "platform": "MLH",
@@ -2358,10 +2359,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068103"
+    "fetched_at": "2026-11-02T09:46:21.006634"
   },
   {
-    "id": "mlh_4518895495688885412",
+    "id": "mlh_9023634219461637940",
     "title": "HackDavis 2026 Hackathon",
     "url": "https://hackdavis.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackDavis+2026+Hackathon",
     "platform": "MLH",
@@ -2384,10 +2385,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068124"
+    "fetched_at": "2026-11-02T09:46:21.006646"
   },
   {
-    "id": "mlh_1288020494163120313",
+    "id": "mlh_3407091334312975029",
     "title": "NMIT Hacks ",
     "url": "https://nmithacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=NMIT+Hacks+",
     "platform": "MLH",
@@ -2410,10 +2411,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068146"
+    "fetched_at": "2026-11-02T09:46:21.006657"
   },
   {
-    "id": "mlh_2616712667232919122",
+    "id": "mlh_6935387836501914729",
     "title": "ConHacks 2026",
     "url": "https://conhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=ConHacks+2026",
     "platform": "MLH",
@@ -2436,10 +2437,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068171"
+    "fetched_at": "2026-11-02T09:46:21.006670"
   },
   {
-    "id": "mlh_3211267876245767614",
+    "id": "mlh_9048350607419305132",
     "title": "Hack Arizona ",
     "url": "https://hack.arizona.edu/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+Arizona+",
     "platform": "MLH",
@@ -2462,10 +2463,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068193"
+    "fetched_at": "2026-11-02T09:46:21.006682"
   },
   {
-    "id": "mlh_2316802486496354470",
+    "id": "mlh_4106899333824713173",
     "title": "BroncoHacks 2026",
     "url": "https://www.broncohacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=BroncoHacks+2026",
     "platform": "MLH",
@@ -2488,10 +2489,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068214"
+    "fetched_at": "2026-11-02T09:46:21.006695"
   },
   {
-    "id": "mlh_1736301796566505393",
+    "id": "mlh_3764252929674684895",
     "title": "KeanUHackThis",
     "url": "https://www.keanuhackthis.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=KeanUHackThis",
     "platform": "MLH",
@@ -2514,10 +2515,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068236"
+    "fetched_at": "2026-11-02T09:46:21.006706"
   },
   {
-    "id": "mlh_8767934288044715491",
+    "id": "mlh_1142605261200281659",
     "title": "Hackabull VII",
     "url": "https://www.hackabull.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hackabull+VII",
     "platform": "MLH",
@@ -2540,10 +2541,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068277"
+    "fetched_at": "2026-11-02T09:46:21.006718"
   },
   {
-    "id": "mlh_6874333876894185666",
+    "id": "mlh_209257835887402717",
     "title": "BearHacks 2026",
     "url": "https://www.bearhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=BearHacks+2026",
     "platform": "MLH",
@@ -2566,10 +2567,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068301"
+    "fetched_at": "2026-11-02T09:46:21.006729"
   },
   {
-    "id": "mlh_4336850198652877991",
+    "id": "mlh_4533880728633263675",
     "title": "HackUPC",
     "url": "https://hackupc.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUPC",
     "platform": "MLH",
@@ -2592,10 +2593,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068323"
+    "fetched_at": "2026-11-02T09:46:21.006740"
   },
   {
-    "id": "mlh_2848046065975276952",
+    "id": "mlh_6507183700481679486",
     "title": "Hacktech",
     "url": "https://hack.caltech.edu/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hacktech",
     "platform": "MLH",
@@ -2618,10 +2619,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068344"
+    "fetched_at": "2026-11-02T09:46:21.006752"
   },
   {
-    "id": "mlh_1621139703884604682",
+    "id": "mlh_1518022370817884304",
     "title": "LA Hacks",
     "url": "https://lahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=LA+Hacks",
     "platform": "MLH",
@@ -2644,10 +2645,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068364"
+    "fetched_at": "2026-11-02T09:46:21.006762"
   },
   {
-    "id": "mlh_8006994051295863138",
+    "id": "mlh_2592690221787235345",
     "title": "TikTok",
     "url": "https://www.tiktok.com/@majorleaguehacking",
     "platform": "MLH",
@@ -2670,10 +2671,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068383"
+    "fetched_at": "2026-11-02T09:46:21.006773"
   },
   {
-    "id": "mlh_2104301612912733849",
+    "id": "mlh_2333477724544040219",
     "title": "LinkedIn",
     "url": "https://www.linkedin.com/company/major-league-hacking/",
     "platform": "MLH",
@@ -2696,10 +2697,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068398"
+    "fetched_at": "2026-11-02T09:46:21.006781"
   },
   {
-    "id": "mlh_584044682008872451",
+    "id": "mlh_3508467210596986154",
     "title": "TechTogether",
     "url": "https://techtogether.io",
     "platform": "MLH",
@@ -2722,10 +2723,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068415"
+    "fetched_at": "2026-11-02T09:46:21.006791"
   },
   {
-    "id": "mlh_949966680169553531",
+    "id": "mlh_4594116488276339153",
     "title": "Fellowship FAQ",
     "url": "https://hackp.ac/fellowship-faq",
     "platform": "MLH",
@@ -2748,36 +2749,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.068430"
+    "fetched_at": "2026-11-02T09:46:21.006800"
   },
   {
-    "id": "mlh_2416176351693875702",
-    "title": "hackCBS 9.O",
-    "url": "https://hackcbs.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackCBS+9.O",
-    "platform": "MLH",
-    "description": "Official MLH Member Hackathon: hackCBS 9.O. Build projects, learn from mentors, and compete for global prizes.",
-    "is_india": false,
-    "is_online": true,
-    "city": "Online (Virtual)",
-    "start_date": null,
-    "end_date": null,
-    "deadline": null,
-    "prize_pool": "Sponsor Bounties, Swag & Hardware",
-    "prize_usd_approx": 0.0,
-    "category": "Gaming & AR/VR",
-    "location": "Online / Hybrid",
-    "tags": [
-      "MLH",
-      "Student",
-      "Global",
-      "Online"
-    ],
-    "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971663"
-  },
-  {
-    "id": "mlh_8809524545304237899",
+    "id": "mlh_9008998354737702423",
     "title": "SharkByte",
     "url": "https://shark-byte.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SharkByte",
     "platform": "MLH",
@@ -2800,10 +2775,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971703"
+    "fetched_at": "2026-11-02T09:46:22.318583"
   },
   {
-    "id": "mlh_2218741998075635830",
+    "id": "mlh_2208236105909689561",
     "title": "Since AI Hackathon",
     "url": "https://sinceai.ai/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Since+AI+Hackathon",
     "platform": "MLH",
@@ -2826,10 +2801,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971729"
+    "fetched_at": "2026-11-02T09:46:22.318615"
   },
   {
-    "id": "mlh_3469558857195366934",
+    "id": "mlh_4176953372859826677",
     "title": "HackTrent",
     "url": "https://www.hacktrent.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackTrent",
     "platform": "MLH",
@@ -2852,10 +2827,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971752"
+    "fetched_at": "2026-11-02T09:46:22.318629"
   },
   {
-    "id": "mlh_4605023410154174242",
+    "id": "mlh_6261112762211422805",
     "title": "YCP Hacks",
     "url": "https://ycphacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=YCP+Hacks",
     "platform": "MLH",
@@ -2878,10 +2853,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971773"
+    "fetched_at": "2026-11-02T09:46:22.318642"
   },
   {
-    "id": "mlh_9198410084660026173",
+    "id": "mlh_2942406478952836808",
     "title": "HackUTD",
     "url": "https://zeroday.hackutd.co/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUTD",
     "platform": "MLH",
@@ -2904,10 +2879,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971795"
+    "fetched_at": "2026-11-02T09:46:22.318655"
   },
   {
-    "id": "mlh_3719080359971474036",
+    "id": "mlh_1682331264959527577",
     "title": "BioHacks",
     "url": "https://www.bioeng4youth.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=BioHacks",
     "platform": "MLH",
@@ -2930,10 +2905,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971816"
+    "fetched_at": "2026-11-02T09:46:22.318667"
   },
   {
-    "id": "mlh_1939053366196735001",
+    "id": "mlh_6054394991908431218",
     "title": "MakeCU",
     "url": "https://v0-curc-makecu.vercel.app/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MakeCU",
     "platform": "MLH",
@@ -2956,10 +2931,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971838"
+    "fetched_at": "2026-11-02T09:46:22.318679"
   },
   {
-    "id": "mlh_715761642643910170",
+    "id": "mlh_3699461981180562930",
     "title": "HackRPI 2026",
     "url": "https://hackrpi.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackRPI+2026",
     "platform": "MLH",
@@ -2982,10 +2957,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971859"
+    "fetched_at": "2026-11-02T09:46:22.318691"
   },
   {
-    "id": "mlh_6066911044104826066",
+    "id": "mlh_7795417339127173862",
     "title": "Hack the Change",
     "url": "https://hackthechangeyyc.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+the+Change",
     "platform": "MLH",
@@ -3008,10 +2983,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971881"
+    "fetched_at": "2026-11-02T09:46:22.318703"
   },
   {
-    "id": "mlh_5654671904490957290",
+    "id": "mlh_4024694866437408169",
     "title": "Sheridan Datathon 2026",
     "url": "https://sheridandatathon.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Sheridan+Datathon+2026",
     "platform": "MLH",
@@ -3034,10 +3009,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971902"
+    "fetched_at": "2026-11-02T09:46:22.318715"
   },
   {
-    "id": "mlh_4262850658214947005",
+    "id": "mlh_8914389596591121580",
     "title": "CommuniHacks",
     "url": "https://www.communihacks.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=CommuniHacks",
     "platform": "MLH",
@@ -3060,10 +3035,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971922"
+    "fetched_at": "2026-11-02T09:46:22.318727"
   },
   {
-    "id": "mlh_5283081871042526806",
+    "id": "mlh_2641437011575078780",
     "title": "HackTheBurgh",
     "url": "https://hacktheburgh.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackTheBurgh",
     "platform": "MLH",
@@ -3086,10 +3061,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971944"
+    "fetched_at": "2026-11-02T09:46:22.318740"
   },
   {
-    "id": "mlh_3550916671003424220",
+    "id": "mlh_2140693436567324266",
     "title": "MakeUC",
     "url": "https://makeuc.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MakeUC",
     "platform": "MLH",
@@ -3112,10 +3087,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971964"
+    "fetched_at": "2026-11-02T09:46:22.318751"
   },
   {
-    "id": "mlh_8026310758662148033",
+    "id": "mlh_7744977307778325449",
     "title": "HackCamp",
     "url": "https://hackcamp.nwplus.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackCamp",
     "platform": "MLH",
@@ -3138,10 +3113,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.971984"
+    "fetched_at": "2026-11-02T09:46:22.318762"
   },
   {
-    "id": "mlh_1579320452101473993",
+    "id": "mlh_1625529626840798725",
     "title": "TAMU Datathon",
     "url": "https://tamudatathon.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=TAMU+Datathon",
     "platform": "MLH",
@@ -3164,10 +3139,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972004"
+    "fetched_at": "2026-11-02T09:46:22.318773"
   },
   {
-    "id": "mlh_2678099105570278691",
+    "id": "mlh_2253873556352000965",
     "title": "UB Hacking",
     "url": "https://ubhacking.cse.buffalo.edu/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UB+Hacking",
     "platform": "MLH",
@@ -3190,10 +3165,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972024"
+    "fetched_at": "2026-11-02T09:46:22.318784"
   },
   {
-    "id": "mlh_455468454788929316",
+    "id": "mlh_7257266476219719878",
     "title": "GullHacks",
     "url": "https://hub.salisbury.edu/hackathon/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=GullHacks",
     "platform": "MLH",
@@ -3216,10 +3191,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972044"
+    "fetched_at": "2026-11-02T09:46:22.318795"
   },
   {
-    "id": "mlh_6196050755111205241",
+    "id": "mlh_8885762355473954284",
     "title": "Emory Hacks",
     "url": "https://emoryhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Emory+Hacks",
     "platform": "MLH",
@@ -3242,10 +3217,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972064"
+    "fetched_at": "2026-11-02T09:46:22.318806"
   },
   {
-    "id": "mlh_7588635082612764362",
+    "id": "mlh_604711733964030820",
     "title": "UniHack",
     "url": "https://unihack.eu/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UniHack",
     "platform": "MLH",
@@ -3268,10 +3243,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972084"
+    "fetched_at": "2026-11-02T09:46:22.318817"
   },
   {
-    "id": "mlh_3666781175645989394",
+    "id": "mlh_327860485221922726",
     "title": "Junction",
     "url": "https://hackjunction.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Junction",
     "platform": "MLH",
@@ -3294,10 +3269,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972104"
+    "fetched_at": "2026-11-02T09:46:22.318827"
   },
   {
-    "id": "mlh_6316416207105976999",
+    "id": "mlh_7475194448153430568",
     "title": "HackPrinceton Fall 2026",
     "url": "https://www.hackprinceton.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackPrinceton+Fall+2026",
     "platform": "MLH",
@@ -3320,10 +3295,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972126"
+    "fetched_at": "2026-11-02T09:46:22.318838"
   },
   {
-    "id": "mlh_8593125328631427282",
+    "id": "mlh_2357116807914703840",
     "title": "NASA's Space Apps Challenge NYC",
     "url": "https://www.spaceappschallenge.org/2026/local-events/new-york/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=NASA%27s+Space+Apps+Challenge+NYC",
     "platform": "MLH",
@@ -3346,10 +3321,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972335"
+    "fetched_at": "2026-11-02T09:46:22.318932"
   },
   {
-    "id": "mlh_3011736999046000813",
+    "id": "mlh_4021047853383605612",
     "title": "HackUMass",
     "url": "https://www.hackumass.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUMass",
     "platform": "MLH",
@@ -3372,10 +3347,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972368"
+    "fetched_at": "2026-11-02T09:46:22.318944"
   },
   {
-    "id": "mlh_8259241992937119587",
+    "id": "mlh_8770491600803729772",
     "title": "HackUTA",
     "url": "https://hackuta.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUTA",
     "platform": "MLH",
@@ -3398,10 +3373,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972393"
+    "fetched_at": "2026-11-02T09:46:22.318956"
   },
   {
-    "id": "mlh_246867052604280074",
+    "id": "mlh_5823091492149486206",
     "title": "SanD Hacks",
     "url": "https://hackathon.csesatucsd.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SanD+Hacks",
     "platform": "MLH",
@@ -3424,10 +3399,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972415"
+    "fetched_at": "2026-11-02T09:46:22.318967"
   },
   {
-    "id": "mlh_6770650039161580886",
+    "id": "mlh_6185044403687877611",
     "title": "Hack The Nest",
     "url": "https://hackthenest.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+The+Nest",
     "platform": "MLH",
@@ -3450,10 +3425,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972436"
+    "fetched_at": "2026-11-02T09:46:22.318978"
   },
   {
-    "id": "mlh_7003380603139608682",
+    "id": "mlh_9001071285287112612",
     "title": "DurHack",
     "url": "https://durhack.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DurHack",
     "platform": "MLH",
@@ -3476,10 +3451,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972456"
+    "fetched_at": "2026-11-02T09:46:22.318988"
   },
   {
-    "id": "mlh_3777551076615117633",
+    "id": "mlh_6048590482306521889",
     "title": "sunhacks",
     "url": "https://2026.sunhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=sunhacks",
     "platform": "MLH",
@@ -3502,10 +3477,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972476"
+    "fetched_at": "2026-11-02T09:46:22.318999"
   },
   {
-    "id": "mlh_7724101036229778621",
+    "id": "mlh_6369605510882825460",
     "title": "Hack Western 13",
     "url": "https://hackwestern.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+Western+13",
     "platform": "MLH",
@@ -3528,10 +3503,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972497"
+    "fetched_at": "2026-11-02T09:46:22.319011"
   },
   {
-    "id": "mlh_3502205880010671153",
+    "id": "mlh_717110370639208627",
     "title": "Tech For Community 2026",
     "url": "https://tecnurtur.org/hackathon?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Tech+For+Community+2026",
     "platform": "MLH",
@@ -3554,10 +3529,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972517"
+    "fetched_at": "2026-11-02T09:46:22.319023"
   },
   {
-    "id": "mlh_312936681085072900",
+    "id": "mlh_5992156571993649559",
     "title": "WHACK (Wellesley Hackathon)",
     "url": "https://www.wellesleyhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=WHACK+%28Wellesley+Hackathon%29",
     "platform": "MLH",
@@ -3580,10 +3555,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972547"
+    "fetched_at": "2026-11-02T09:46:22.319039"
   },
   {
-    "id": "mlh_2415881285191724133",
+    "id": "mlh_2771690243234233162",
     "title": "BostonHacks",
     "url": "https://bostonhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=BostonHacks",
     "platform": "MLH",
@@ -3606,10 +3581,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972570"
+    "fetched_at": "2026-11-02T09:46:22.319050"
   },
   {
-    "id": "mlh_5678785331281030771",
+    "id": "mlh_2701887694461630742",
     "title": "HackEPS",
     "url": "https://hackeps.dev/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackEPS",
     "platform": "MLH",
@@ -3632,10 +3607,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972591"
+    "fetched_at": "2026-11-02T09:46:22.319061"
   },
   {
-    "id": "mlh_3070417969898329301",
+    "id": "mlh_4266179375548715886",
     "title": "HackSheffield11",
     "url": "https://hacksheffield.uk/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackSheffield11",
     "platform": "MLH",
@@ -3658,10 +3633,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972610"
+    "fetched_at": "2026-11-02T09:46:22.319071"
   },
   {
-    "id": "mlh_4297714394708207974",
+    "id": "mlh_9036906358220042523",
     "title": "Hack Cats",
     "url": "https://hackkstate.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+Cats",
     "platform": "MLH",
@@ -3684,10 +3659,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972630"
+    "fetched_at": "2026-11-02T09:46:22.319081"
   },
   {
-    "id": "mlh_752013273055550316",
+    "id": "mlh_3388095475834263132",
     "title": "DeltaHacks",
     "url": "https://www.deltahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DeltaHacks",
     "platform": "MLH",
@@ -3710,10 +3685,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972651"
+    "fetched_at": "2026-11-02T09:46:22.319092"
   },
   {
-    "id": "mlh_1109768269866174079",
+    "id": "mlh_6856669981779644319",
     "title": "UofTHacks",
     "url": "https://uofthacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UofTHacks",
     "platform": "MLH",
@@ -3736,10 +3711,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972670"
+    "fetched_at": "2026-11-02T09:46:22.319101"
   },
   {
-    "id": "mlh_1992736125302866705",
+    "id": "mlh_3683729855275949048",
     "title": "uOttaHack 9",
     "url": "https://2027.uottahack.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=uOttaHack+9",
     "platform": "MLH",
@@ -3762,10 +3737,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972690"
+    "fetched_at": "2026-11-02T09:46:22.319112"
   },
   {
-    "id": "mlh_6038881874725898763",
+    "id": "mlh_144049874727133749",
     "title": "QWER Hacks",
     "url": "https://www.qwerhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=QWER+Hacks",
     "platform": "MLH",
@@ -3788,10 +3763,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972708"
+    "fetched_at": "2026-11-02T09:46:22.319122"
   },
   {
-    "id": "mlh_8209870974267090793",
+    "id": "mlh_2941497084005331079",
     "title": "nwHacks",
     "url": "https://nwhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=nwHacks",
     "platform": "MLH",
@@ -3814,10 +3789,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972727"
+    "fetched_at": "2026-11-02T09:46:22.319132"
   },
   {
-    "id": "mlh_3622936256348285544",
+    "id": "mlh_2036680525416807138",
     "title": "Hackville 2027",
     "url": "https://hackville.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hackville+2027",
     "platform": "MLH",
@@ -3840,10 +3815,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972747"
+    "fetched_at": "2026-11-02T09:46:22.319142"
   },
   {
-    "id": "mlh_7315257468790316076",
+    "id": "mlh_4258575428035997962",
     "title": "Hoya Hacks",
     "url": "https://www.hoyahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hoya+Hacks",
     "platform": "MLH",
@@ -3866,10 +3841,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972765"
+    "fetched_at": "2026-11-02T09:46:22.319152"
   },
   {
-    "id": "mlh_2268479195814645034",
+    "id": "mlh_315920135184363750",
     "title": "ElleHacks",
     "url": "https://ellehacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=ElleHacks",
     "platform": "MLH",
@@ -3892,10 +3867,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972785"
+    "fetched_at": "2026-11-02T09:46:22.319162"
   },
   {
-    "id": "mlh_4120941183061180705",
+    "id": "mlh_6588774015446344307",
     "title": "Hack@Brown 2027",
     "url": "https://hackatbrown.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack%40Brown+2027",
     "platform": "MLH",
@@ -3918,10 +3893,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972819"
+    "fetched_at": "2026-11-02T09:46:22.319186"
   },
   {
-    "id": "mlh_112597016238513929",
+    "id": "mlh_250275610183028517",
     "title": "UGAHacks ",
     "url": "https://12.ugahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UGAHacks+",
     "platform": "MLH",
@@ -3944,10 +3919,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972841"
+    "fetched_at": "2026-11-02T09:46:22.319197"
   },
   {
-    "id": "mlh_8738464497165728625",
+    "id": "mlh_9132727826352397776",
     "title": "Hack_NCState",
     "url": "https://hackncstate.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack_NCState",
     "platform": "MLH",
@@ -3970,10 +3945,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972861"
+    "fetched_at": "2026-11-02T09:46:22.319207"
   },
   {
-    "id": "mlh_1410902907684369249",
+    "id": "mlh_4244557988347281986",
     "title": "InnovateHer",
     "url": "https://innovateherhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=InnovateHer",
     "platform": "MLH",
@@ -3996,10 +3971,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972882"
+    "fetched_at": "2026-11-02T09:46:22.319218"
   },
   {
-    "id": "mlh_8533270153579505645",
+    "id": "mlh_6125092023408082843",
     "title": "SpartaHack",
     "url": "https://www.spartahack.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SpartaHack",
     "platform": "MLH",
@@ -4022,10 +3997,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972901"
+    "fetched_at": "2026-11-02T09:46:22.319228"
   },
   {
-    "id": "mlh_3071028172206834262",
+    "id": "mlh_4467575802370450641",
     "title": "MakeUofT",
     "url": "http://makeuoft.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MakeUofT",
     "platform": "MLH",
@@ -4048,10 +4023,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972921"
+    "fetched_at": "2026-11-02T09:46:22.319238"
   },
   {
-    "id": "mlh_1729984294539815690",
+    "id": "mlh_5186716342406255094",
     "title": "SF Hacks ",
     "url": "https://sfhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SF+Hacks+",
     "platform": "MLH",
@@ -4074,10 +4049,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972943"
+    "fetched_at": "2026-11-02T09:46:22.319248"
   },
   {
-    "id": "mlh_4621965775727558186",
+    "id": "mlh_6347686177593966216",
     "title": "CUhackit",
     "url": "https://cuhack.it/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=CUhackit",
     "platform": "MLH",
@@ -4100,10 +4075,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972963"
+    "fetched_at": "2026-11-02T09:46:22.319259"
   },
   {
-    "id": "mlh_2315437351709344709",
+    "id": "mlh_3148490149768179763",
     "title": "Hacklytics 2027",
     "url": "https://hacklytics2027.web.app/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hacklytics+2027",
     "platform": "MLH",
@@ -4126,10 +4101,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.972983"
+    "fetched_at": "2026-11-02T09:46:22.319270"
   },
   {
-    "id": "mlh_4294987881394780967",
+    "id": "mlh_3022304270140314727",
     "title": "HackIllinois",
     "url": "https://www.hackillinois.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackIllinois",
     "platform": "MLH",
@@ -4152,10 +4127,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973002"
+    "fetched_at": "2026-11-02T09:46:22.319280"
   },
   {
-    "id": "mlh_4690758838067785919",
+    "id": "mlh_4017194962380281201",
     "title": "RevolutionUC",
     "url": "https://www.revolutionuc.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=RevolutionUC",
     "platform": "MLH",
@@ -4178,10 +4153,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973022"
+    "fetched_at": "2026-11-02T09:46:22.319289"
   },
   {
-    "id": "mlh_111531510340507949",
+    "id": "mlh_5948892543962802658",
     "title": "HackHERS ",
     "url": "https://ruhackhers.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackHERS+",
     "platform": "MLH",
@@ -4204,10 +4179,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973045"
+    "fetched_at": "2026-11-02T09:46:22.319300"
   },
   {
-    "id": "mlh_1849471069102647104",
+    "id": "mlh_6172440494586041270",
     "title": "WiCHacks",
     "url": "https://wichacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=WiCHacks",
     "platform": "MLH",
@@ -4230,10 +4205,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973065"
+    "fetched_at": "2026-11-02T09:46:22.319311"
   },
   {
-    "id": "mlh_3538687905638005147",
+    "id": "mlh_2989268547245139759",
     "title": "HenHacks",
     "url": "https://www.henhackshackathon.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HenHacks",
     "platform": "MLH",
@@ -4256,10 +4231,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973084"
+    "fetched_at": "2026-11-02T09:46:22.319321"
   },
   {
-    "id": "mlh_4951402859792354257",
+    "id": "mlh_7382634889104279279",
     "title": "Kent Hack Enough",
     "url": "https://khe.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Kent+Hack+Enough",
     "platform": "MLH",
@@ -4282,10 +4257,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973103"
+    "fetched_at": "2026-11-02T09:46:22.319332"
   },
   {
-    "id": "mlh_5753131969375587960",
+    "id": "mlh_8819862787173899429",
     "title": "Diamondhacks",
     "url": "https://diamondhacks.acmucsd.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Diamondhacks",
     "platform": "MLH",
@@ -4308,10 +4283,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973122"
+    "fetched_at": "2026-11-02T09:46:22.319342"
   },
   {
-    "id": "mlh_3095642551855036442",
+    "id": "mlh_5054472218590909414",
     "title": "MariHacks",
     "url": "https://www.marihacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MariHacks",
     "platform": "MLH",
@@ -4334,10 +4309,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973144"
+    "fetched_at": "2026-11-02T09:46:22.319351"
   },
   {
-    "id": "mlh_4755940285284976269",
+    "id": "mlh_6429479374164577458",
     "title": "HackKU27",
     "url": "https://www.hackku.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackKU27",
     "platform": "MLH",
@@ -4360,10 +4335,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973163"
+    "fetched_at": "2026-11-02T09:46:22.319361"
   },
   {
-    "id": "mlh_9027169278561850440",
+    "id": "mlh_22718603964520100",
     "title": "WEHack",
     "url": "https://www.wehackutd.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=WEHack",
     "platform": "MLH",
@@ -4386,10 +4361,36 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973181"
+    "fetched_at": "2026-11-02T09:46:22.319370"
   },
   {
-    "id": "mlh_1760716448708206141",
+    "id": "mlh_2807380530654016688",
+    "title": "hackCBS 9.O",
+    "url": "https://hackcbs.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackCBS+9.O",
+    "platform": "MLH",
+    "description": "Official MLH Member Hackathon: hackCBS 9.O. Build projects, learn from mentors, and compete for global prizes.",
+    "is_india": false,
+    "is_online": true,
+    "city": "Online (Virtual)",
+    "start_date": null,
+    "end_date": null,
+    "deadline": null,
+    "prize_pool": "Sponsor Bounties, Swag & Hardware",
+    "prize_usd_approx": 0.0,
+    "category": "Gaming & AR/VR",
+    "location": "Online / Hybrid",
+    "tags": [
+      "MLH",
+      "Student",
+      "Global",
+      "Online"
+    ],
+    "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
+    "status": "Upcoming",
+    "fetched_at": "2026-11-02T09:46:22.319387"
+  },
+  {
+    "id": "mlh_8707438469837238908",
     "title": "Hack at Penn State",
     "url": "https://hackpsu.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+at+Penn+State",
     "platform": "MLH",
@@ -4412,10 +4413,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973213"
+    "fetched_at": "2026-11-02T09:46:22.319398"
   },
   {
-    "id": "mlh_5912115811297380074",
+    "id": "mlh_4187228444702856825",
     "title": "DuQuantum",
     "url": "https://duquantum.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DuQuantum",
     "platform": "MLH",
@@ -4438,10 +4439,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973232"
+    "fetched_at": "2026-11-02T09:46:22.319409"
   },
   {
-    "id": "mlh_2528134079418332302",
+    "id": "mlh_7531761701162476656",
     "title": "HackTX 26",
     "url": "https://hacktx.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackTX+26",
     "platform": "MLH",
@@ -4464,10 +4465,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973283"
+    "fetched_at": "2026-11-02T09:46:22.319421"
   },
   {
-    "id": "mlh_2240675667530430393",
+    "id": "mlh_4520223514461093431",
     "title": "OxHack '26",
     "url": "https://26.oxhack.net/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=OxHack+%2726",
     "platform": "MLH",
@@ -4490,10 +4491,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973329"
+    "fetched_at": "2026-11-02T09:46:22.319446"
   },
   {
-    "id": "mlh_3175871189638310071",
+    "id": "mlh_6904730164786227377",
     "title": "SBUHacks",
     "url": "https://hack.sbcs.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SBUHacks",
     "platform": "MLH",
@@ -4516,10 +4517,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973354"
+    "fetched_at": "2026-11-02T09:46:22.319456"
   },
   {
-    "id": "mlh_5411783295297501236",
+    "id": "mlh_871978881924040631",
     "title": "Cal Hacks 13.0 ",
     "url": "https://calhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Cal+Hacks+13.0+",
     "platform": "MLH",
@@ -4542,10 +4543,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973376"
+    "fetched_at": "2026-11-02T09:46:22.319467"
   },
   {
-    "id": "mlh_2003189599080920068",
+    "id": "mlh_2633387189793708239",
     "title": "LA Hacks AI Hackathon 2026",
     "url": "https://ai.lahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=LA+Hacks+AI+Hackathon+2026",
     "platform": "MLH",
@@ -4568,10 +4569,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973398"
+    "fetched_at": "2026-11-02T09:46:22.319478"
   },
   {
-    "id": "mlh_5981577054384545003",
+    "id": "mlh_839177266103191610",
     "title": "Technica Hacks",
     "url": "https://gotechnica.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Technica+Hacks",
     "platform": "MLH",
@@ -4594,10 +4595,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973422"
+    "fetched_at": "2026-11-02T09:46:22.319489"
   },
   {
-    "id": "mlh_6081108697949941066",
+    "id": "mlh_9081606791298565460",
     "title": "IKU Womxn in STEM Hackathon",
     "url": "https://ikuwomxninstemhackathon.co.uk/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=IKU+Womxn+in+STEM+Hackathon",
     "platform": "MLH",
@@ -4620,10 +4621,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973444"
+    "fetched_at": "2026-11-02T09:46:22.319499"
   },
   {
-    "id": "mlh_7170309253428503797",
+    "id": "mlh_8565210667421635623",
     "title": "DubHacks",
     "url": "https://dh26.dubhacks.co/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DubHacks",
     "platform": "MLH",
@@ -4646,10 +4647,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973464"
+    "fetched_at": "2026-11-02T09:46:22.319509"
   },
   {
-    "id": "mlh_1501004668951483950",
+    "id": "mlh_8706813003056959795",
     "title": "Girls Hoo Hack 2026",
     "url": "https://girls-hoo-hack-uva.github.io/GHH-2026/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Girls+Hoo+Hack+2026",
     "platform": "MLH",
@@ -4672,10 +4673,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973485"
+    "fetched_at": "2026-11-02T09:46:22.319519"
   },
   {
-    "id": "mlh_8387868103667644164",
+    "id": "mlh_3978923825147797577",
     "title": "HackGB",
     "url": "https://hackgb.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackGB",
     "platform": "MLH",
@@ -4698,10 +4699,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973505"
+    "fetched_at": "2026-11-02T09:46:22.319529"
   },
   {
-    "id": "mlh_2258104441329081983",
+    "id": "mlh_3340893175553886326",
     "title": "Hack the Valley",
     "url": "https://hackthevalley.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+the+Valley",
     "platform": "MLH",
@@ -4724,10 +4725,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973525"
+    "fetched_at": "2026-11-02T09:46:22.319539"
   },
   {
-    "id": "mlh_1478077147461340430",
+    "id": "mlh_5172310405720505100",
     "title": "SwampHacks XII",
     "url": "https://swamphacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SwampHacks+XII",
     "platform": "MLH",
@@ -4750,10 +4751,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973545"
+    "fetched_at": "2026-11-02T09:46:22.319549"
   },
   {
-    "id": "mlh_3226740908145421705",
+    "id": "mlh_9214619088235221036",
     "title": "Innohacks 4.0",
     "url": "https://innohacks.live/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Innohacks+4.0",
     "platform": "MLH",
@@ -4776,10 +4777,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973566"
+    "fetched_at": "2026-11-02T09:46:22.319559"
   },
   {
-    "id": "mlh_4432410088653070074",
+    "id": "mlh_123213603340720077",
     "title": "Palmetto Hacks",
     "url": "https://palmettohacks.ktpusc.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Palmetto+Hacks",
     "platform": "MLH",
@@ -4802,10 +4803,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973598"
+    "fetched_at": "2026-11-02T09:46:22.319571"
   },
   {
-    "id": "mlh_5072002581183397861",
+    "id": "mlh_4732487632882288199",
     "title": "HackRU",
     "url": "https://www.hackru.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackRU",
     "platform": "MLH",
@@ -4828,10 +4829,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973619"
+    "fetched_at": "2026-11-02T09:46:22.319580"
   },
   {
-    "id": "mlh_6062644347747853562",
+    "id": "mlh_6963952972927751788",
     "title": "hackPHS",
     "url": "https://hackphs.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackPHS",
     "platform": "MLH",
@@ -4854,10 +4855,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973639"
+    "fetched_at": "2026-11-02T09:46:22.319589"
   },
   {
-    "id": "mlh_3340503781818748572",
+    "id": "mlh_7140256304447844237",
     "title": "CodeRED Orion",
     "url": "https://uhcode.red/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=CodeRED+Orion",
     "platform": "MLH",
@@ -4880,10 +4881,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973658"
+    "fetched_at": "2026-11-02T09:46:22.319599"
   },
   {
-    "id": "mlh_6564978118928779060",
+    "id": "mlh_44305414766507674",
     "title": "Knight Hacks IX",
     "url": "https://2026.knighthacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Knight+Hacks+IX",
     "platform": "MLH",
@@ -4906,10 +4907,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973678"
+    "fetched_at": "2026-11-02T09:46:22.319609"
   },
   {
-    "id": "mlh_7290789709405209960",
+    "id": "mlh_4103726520323444979",
     "title": "Hacklanta",
     "url": "https://hacklanta.dev/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hacklanta",
     "platform": "MLH",
@@ -4932,10 +4933,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973697"
+    "fetched_at": "2026-11-02T09:46:22.319619"
   },
   {
-    "id": "mlh_5221292302002196266",
+    "id": "mlh_1018950938557302966",
     "title": "Hackathon TecNM Campus Saltillo 2026",
     "url": "https://www.road2tech.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hackathon+TecNM+Campus+Saltillo+2026",
     "platform": "MLH",
@@ -4958,10 +4959,10 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973720"
+    "fetched_at": "2026-11-02T09:46:22.319630"
   },
   {
-    "id": "mlh_3277770595571582478",
+    "id": "mlh_1873721630754400891",
     "title": "Hack Knight",
     "url": "https://hackknight.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+Knight",
     "platform": "MLH",
@@ -4984,32 +4985,6 @@
     ],
     "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
     "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973741"
-  },
-  {
-    "id": "mlh_5908771754240943628",
-    "title": "HackBIOS",
-    "url": "https://hackbios.xyz/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackBIOS",
-    "platform": "MLH",
-    "description": "Official MLH Member Hackathon: HackBIOS. Build projects, learn from mentors, and compete for global prizes.",
-    "is_india": false,
-    "is_online": true,
-    "city": "Online (Virtual)",
-    "start_date": null,
-    "end_date": null,
-    "deadline": null,
-    "prize_pool": "Sponsor Bounties, Swag & Hardware",
-    "prize_usd_approx": 0.0,
-    "category": "Gaming & AR/VR",
-    "location": "Online / Hybrid",
-    "tags": [
-      "MLH",
-      "Student",
-      "Global",
-      "Online"
-    ],
-    "thumbnail": "https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png",
-    "status": "Upcoming",
-    "fetched_at": "2026-11-01T09:29:56.973763"
+    "fetched_at": "2026-11-02T09:46:22.319641"
   }
 ]
