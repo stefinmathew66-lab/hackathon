@@ -1,6 +1,6 @@
 # 🚀 Latest Hackathons (India & Global Online)
 
-*Total Opportunities Found: 128*
+*Total Opportunities Found: 129*
 
 | Platform | Hackathon Title | Location / Mode | Prize Pool | Direct Apply Link |
 |---|---|---|---|---|
@@ -20,8 +20,8 @@
 | **Devpost** | Relate by Neo4j Hackathon | 🌐 Online | $0 | [Apply / View](https://relate.devpost.com/) |
 | **Devpost** | Build Your First AI App | 🌐 Online | $0 | [Apply / View](https://build-your-first-ai-app.devpost.com/) |
 | **Devpost** | STEM2Connect AI Hackathon | 🌐 Online | $0 | [Apply / View](https://stem2connect-online-hackathon.devpost.com/) |
-| **Devpost** | LaunchPad Hacks (580k In Prizes!) | 🌐 Online | $300 | [Apply / View](https://launchpad-hacks.devpost.com/) |
 | **Devpost** | GenHacks | 🌐 Online | $CAD 1,050 | [Apply / View](https://genhacks-open.devpost.com/) |
+| **Devpost** | LaunchPad Hacks (580k In Prizes!) | 🌐 Online | $300 | [Apply / View](https://launchpad-hacks.devpost.com/) |
 | **MLH** | DEV | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://dev.to/?utm_source=mlh&utm_medium=referral&utm_content=DEV) |
 | **MLH** | HackPrix Season 3 | 🌐 Online 🇮🇳 | Sponsor Bounties, Swag & Hardware | [Apply / View](https://s3.hackprix.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackPrix+Season+3) |
 | **MLH** | JAMHacks 10 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://jamhacks.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=JAMHacks+10) |
@@ -50,8 +50,10 @@
 | **MLH** | Fellowship FAQ | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://mlh.link/fellowship-faq) |
 | **MLH** | HackEPS | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackeps.dev/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackEPS) |
 | **MLH** | HackSheffield11 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hacksheffield.uk/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackSheffield11) |
+| **MLH** | Workday Internal Hackathon | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://connect.events.workday.com/aiaf?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Workday+Internal+Hackathon) |
 | **MLH** | Hack Cats | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackkstate.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+Cats) |
 | **MLH** | Hack Canada 2027 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackcanada.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+Canada+2027) |
+| **MLH** | SheHacks  11 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.shehacks.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SheHacks%2B+11) |
 | **MLH** | DeltaHacks | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://www.deltahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DeltaHacks) |
 | **MLH** | uOttaHack 9 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://2027.uottahack.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=uOttaHack+9) |
 | **MLH** | Techacks 5.0 | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://techacks.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Techacks+5.0) |
@@ -70,8 +72,6 @@
 | **MLH** | Hack_NCState | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://hackncstate.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack_NCState) |
 | **MLH** | InnovateHer | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://innovateherhacks.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=InnovateHer) |
 | **MLH** | MakeUofT | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](http://makeuoft.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MakeUofT) |
-| **MLH** | SF Hacks  | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://sfhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=SF+Hacks+) |
-| **MLH** | CUhackit | 🌐 Online | Sponsor Bounties, Swag & Hardware | [Apply / View](https://cuhack.it/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=CUhackit) |
 | **HackerEarth** | ContextCon: Remember Everything | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/hackathon/contextcon-remember-everything/) |
 | **HackerEarth** | Groww Next ‘26 | 🌐 Online 🇮🇳 | Cash Prizes & Hiring | [Apply / View](https://www.hackerearth.com/challenges/hackathon/groww-next-2026/) |
 | **Devfolio** | MakerSpark | IIITMK Building, Technopark Road, Technopark Campus, Karyavattom, Kazhakkoottam, Thiruvananthapuram, Keralam, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/makerspark) |
@@ -98,37 +98,38 @@
 | **Devfolio** | CODERAVE 2.0 | India (In-Person/Hybrid) 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/coderave-2) |
 | **Devfolio** | doubleSlash 5.0 | School of Mobile Computing & Communication, LB Block, Sector 3, Bidhannagar, Kolkata, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/doubleslash5) |
 | **Devfolio** | DevNexus Vidisha | V V NATU COMPUTER CENTER, SATI Campus, Vidisha, Madhya Pradesh, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/devnexus-3) |
+| **Devfolio** | Convergence-1.0 | JIS College of Engineering, Barrackpore - Kalyani Expressway, Block A5, Block A, Kalyani, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/convergence2027) |
 | **Devfolio** | HackTU 8.0 | Thapar Institute of Engineering & Technology, Bhadson Road, Patiala, Punjab, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/hacktu-8) |
 | **Devfolio** | Diversion 2k27 | IEM Gurukul Building, EP Block, Sector V, Bidhannagar, Kolkata, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/diversion2k27) |
 | **Devfolio** | ECLIPSE 7.0 | Thapar Institute of Engineering & Technology, Bhadson Road, Patiala, Punjab, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/eclipse) |
 | **Devfolio** | Touch Some Grass | Chennai, Tamil Nadu, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/touch-some-grass) |
-| **Devfolio** | DevNexus 2.0 | Government College of Engineering and Leather Technology, Eastern Metropolitan Bypass, LB Block, Sector 3, Bidhannagar, Kolkata, West Bengal, India 🇮🇳 | Prizes & Swag | [Apply / View](https://devfolio.co/hackathons/devnexus2) |
+| **Unstop** | HackxCraft – 6-House House-Based Coding Challenge | LNCT Group of Colleges, Bhopal, Madhya Pradesh 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/hackxcraft-6-house-house-based-coding-challenge-e-summit26-lnct-group-of-colleges-bhopal-madhya-pradesh-1825414) |
+| **Unstop** | Imagine the Impossible: The Game Design Challenge  | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/imagine-the-impossible-the-game-design-challenge-kalindi-college-kc-university-of-delhi-du-delhi-1826953) |
+| **Unstop** | Hackday Dec | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/hackday-dec-trishulx-1828678) |
+| **Unstop** | Online Coding Challenge | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/online-coding-challenge-rastrakavi-ramdhari-singh-dinkar-college-of-engineeringrrsdce-begusarai-1828749) |
+| **Unstop** | Snow Code | 🌐 Online 🇮🇳 | ₹3,000 | [Apply / View](https://unstop.com/hackathons/snow-code-stampers-1828497) |
+| **Unstop** | Hack for Good: Open Innovation Hackathon | ICFAI Business School (IBS), Hyderabad 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/hack-for-good-open-innovation-hackathon-ibs-hyderabad-1828382) |
+| **Unstop** | 404 Not Found:Hackathon edition  | 404 Afterhours 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/404-not-foundhackathon-edition-404-afterhours-1828118) |
+| **Unstop** | Protocol Zero: Boot - Hack - CTF | Centre for Cybersecurity, Trust and Reliability, IIT Madras (CyStar) 🇮🇳 | ₹250,000 | [Apply / View](https://unstop.com/hackathons/protocol-zero-boot-hack-ctf-centre-for-cybersecurity-trust-and-reliability-iit-madras-cystar-1798676) |
+| **Unstop** | Agentic AI Hackathon 2026 | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/agentic-ai-hackathon-2026-proton-solutions-1828890) |
+| **Unstop** | UNIVION: CHRONOS DE NOVO | SIEEDS 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/univion-chronos-de-novo-sieeds-1826867) |
+| **Unstop** | CodePulse 48 - National Hackathon | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/codepulse-48-national-hackathon-wecodecoders-1827866) |
+| **Unstop** | Finance Next Hackathon 2026 | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/finance-next-hackathon-2026-proton-solutions-1827472) |
+| **Unstop** | Utopia Stock Exchange | ICFAI Business School (IBS), Pune 🇮🇳 | ₹10,000 | [Apply / View](https://unstop.com/hackathons/utopia-stock-exchange-icfai-business-school-ibs-pune-1827808) |
 | **Unstop** | Enigma 2.0 – 24-Hour National level Hackathon - Riet Jaipur | Rajasthan institute of engineering and technology, Jaipur  🇮🇳 | ₹11,000 | [Apply / View](https://unstop.com/hackathons/enigma-20-24-hour-inter-college-hackathon-riet-jaipur-rajasthan-institute-of-engineering-and-technology-jaipu-1826269) |
+| **Unstop** | CoMemor Contributor Challenge | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/comemor-contributor-challenge-comemor-1825938) |
+| **Unstop** | Codathon | Institute of chemical technology, Mumbai 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/codathon-vortex-140-institute-of-chemical-technology-mumbai-1800622) |
 | **Unstop** | LogiTHON 2026 | Softlink Global Ltd 🇮🇳 | ₹100,000 | [Apply / View](https://unstop.com/hackathons/logithon-2026-softlink-global-ltd-1827287) |
 | **Unstop** | Nexora AI – National AI & Innovation Hackathon 2026 | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/nexora-ai-national-ai-innovation-hackathon-2026-psit-college-of-engineering-psitcoe-kanpur-uttar-pradesh-1812323) |
-| **Unstop** | CoMemor Contributor Challenge | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/comemor-contributor-challenge-comemor-1825938) |
-| **Unstop** | AI CodeStorm 2026  | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/ai-codestorm-2026-proton-solutions-1826401) |
-| **Unstop** | Utopia Stock Exchange | ICFAI Business School (IBS), Pune 🇮🇳 | ₹10,000 | [Apply / View](https://unstop.com/hackathons/utopia-stock-exchange-icfai-business-school-ibs-pune-1827808) |
-| **Unstop** | Finance Next Hackathon 2026 | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/finance-next-hackathon-2026-proton-solutions-1827472) |
 | **Unstop** | Zenith'2k26 | MLR Institute Of Technology (MLRIT), Hyderabad 🇮🇳 | ₹200,000 | [Apply / View](https://unstop.com/hackathons/zenith2k26-mlr-institute-of-technology-mlrit-hyderabad-1826211) |
+| **Unstop** | AI CodeStorm 2026  | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/ai-codestorm-2026-proton-solutions-1826401) |
 | **Unstop** | Divergent Merch Design Challenge | 🌐 Online 🇮🇳 | ₹2,000 | [Apply / View](https://unstop.com/hackathons/divergent-merch-design-challenge-divergent-classes-1814036) |
 | **Unstop** | TryHackingMe Hackathon | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/tryhackingme-hackathon-buildx-1826567) |
 | **Unstop** | Bharat Academix Global Innovatex 2027 | 🌐 Online 🇮🇳 | ₹51,000 | [Apply / View](https://unstop.com/hackathons/bharat-academix-global-innovatex-2027-bharat-academix-1826250) |
-| **Unstop** | OpenVerse '26 | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/openverse-26-campus-code-1821473) |
-| **Unstop** | Codathon | Institute of chemical technology, Mumbai 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/codathon-vortex-140-institute-of-chemical-technology-mumbai-1800622) |
-| **Unstop** | KITE Winter Innovation Expedition – National-Level Innovation Challenge | K.S. Rangasamy College Of Technology (KSRCT), Namakkal 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/kite-winter-innovation-expedition-national-level-innovation-challenge-ks-rangasamy-college-of-technology-ksrc-1820425) |
-| **Unstop** | Fourth Wall'26 | Vellore Institute of Technology (VIT), Chennai 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/fourth-wall27-vellore-institute-of-technology-vit-chennai-1823779) |
 | **Unstop** | Parallax Hackathon 2026 | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/parallax-hackathon-2026-invoqe-1826157) |
+| **Unstop** | OpenVerse '26 | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/openverse-26-campus-code-1821473) |
 | **Unstop** | BlackPanda Labs CTF 2026 - Free International Cybersecurity Competition | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/blackpanda-labs-ctf-2026-free-international-cybersecurity-competition-blackpandalabs-1825506) |
 | **Unstop** | Adaptics - Open Innovation Hackathon | 🌐 Online 🇮🇳 | ₹1,000 | [Apply / View](https://unstop.com/hackathons/adaptics-open-innovation-hackathon-makers-need-more-mnm-1823604) |
 | **Unstop** | India AI Open 2026: Free AI Talent Contest for Students and Engineers | 🌐 Online 🇮🇳 | ₹50,000 | [Apply / View](https://unstop.com/hackathons/india-ai-open-2026-free-ai-talent-contest-for-students-and-engineers-acciojob-1820502) |
 | **Unstop** | Hack The Hardware | St. Vincent Pallotti College of Engineering and Technology (SVPCET), Nagpur 🇮🇳 | ₹30,000 | [Apply / View](https://unstop.com/hackathons/hack-the-hardware-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1820851) |
-| **Unstop** | Starlight Arena - AI Red Teaming Competition | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/starlight-arena-ai-red-teaming-competition-starlight-arena-parsewave-ai-1824394) |
-| **Unstop** | Agentic Arena | St. Vincent Pallotti College of Engineering and Technology (SVPCET), Nagpur 🇮🇳 | ₹40,000 | [Apply / View](https://unstop.com/hackathons/agentic-arena-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1820895) |
-| **Unstop** | Hackathon | 🌐 Online 🇮🇳 | ₹80,000 | [Apply / View](https://unstop.com/hackathons/hackathon-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1820868) |
-| **Unstop** | Apex CTF | 🌐 Online 🇮🇳 | ₹500,000 | [Apply / View](https://unstop.com/hackathons/apex-ctf-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1820854) |
-| **Unstop** | AgentX | 🌐 Online 🇮🇳 | ₹500 | [Apply / View](https://unstop.com/hackathons/agentx-ai-academia-1824377) |
-| **Unstop** | Ideathon: Idea to Prototyping Challenge | Indian Institute of Technology (IIT), Bombay 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/ideathon-idea-to-prototyping-challenge-iit-bombay-1823841) |
-| **Unstop** | CodeEncoders India 2026 — National Hackathon | 🌐 Online 🇮🇳 | Certificates & Mentorship | [Apply / View](https://unstop.com/hackathons/codeencoders-india-2026-national-hackathon-wecodecoders-1823739) |
-| **Unstop** | IIT Bombay Physical AI Hackathon | Indian Institute of Technology (IIT), Bombay 🇮🇳 | ₹150,000 | [Apply / View](https://unstop.com/hackathons/iit-bombay-physical-ai-hackathon-iit-bombay-1822209) |
-| **Unstop** | PromptWars x Quad Patna | Quad AI School of Technology & Management 🇮🇳 | ₹10,000 | [Apply / View](https://unstop.com/hackathons/promptwars-x-quad-patna-quad-ai-school-of-technology-management-1821984) |
+| **Unstop** | KITE Winter Innovation Expedition – National-Level Innovation Challenge | K.S. Rangasamy College Of Technology (KSRCT), Namakkal 🇮🇳 | ₹20,000 | [Apply / View](https://unstop.com/hackathons/kite-winter-innovation-expedition-national-level-innovation-challenge-ks-rangasamy-college-of-technology-ksrc-1820425) |
